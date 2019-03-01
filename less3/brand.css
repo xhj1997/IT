@@ -1,0 +1,111 @@
+.article-brand {
+  width: 100%;
+  padding: 25px 0 100px;
+}
+.article-brand .brand-box {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.article-brand .brand-box .brand-left {
+  width: 23%;
+  position: absolute;
+  left: 0px;
+}
+.article-brand .brand-box .brand-left p {
+  font-size: 20px;
+  color: #000;
+  letter-spacing: 1px;
+  line-height: 26px;
+  text-align: left;
+  font-weight: 700;
+}
+.article-brand .brand-box .swiper-container1 {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.article-brand .brand-box .swiper-container1 .swiper-wrapper1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+.article-brand .brand-box .swiper-container1 .swiper-wrapper1 ul li {
+  display: inline-block;
+  position: relative;
+  width: 269px;
+  margin-right: 29px;
+  float: left;
+}
+.article-brand .brand-box .swiper-container1 .swiper-wrapper1 ul li:last-child {
+  margin-right: 0px;
+}
+.article-brand .brand-box .swiper-container1 .swiper-wrapper1 ul li a:hover {
+  text-decoration: none;
+}
+.article-brand .brand-box .swiper-container1 .swiper-wrapper1 ul li .img-box {
+  width: 100%;
+  display: block;
+  perspective: 100px;
+}
+.article-brand .brand-box .swiper-container1 .swiper-wrapper1 ul li .img-box img {
+  width: 100%;
+}
+.article-brand .brand-box .swiper-container1 .swiper-wrapper1 ul li .img-box img:hover {
+  transition: transform 1s;
+  transform: translateZ(5px);
+}
+.article-brand .brand-box .swiper-container1 .swiper-wrapper1 ul li .img-box p {
+  font-family: "微软雅黑";
+  font-size: 15px;
+  color: #000;
+  letter-spacing: 0.54px;
+  line-height: 21px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.article-brand .brand-box .brand-right {
+  padding: 1px;
+  height: 100%;
+  margin-left: 300px;
+}
+.article-brand .brand-box .btn-cta {
+  position: absolute;
+  left: 0;
+  bottom: 42px;
+}
+.article-brand .brand-box .btn-cta .btn-sit {
+  min-width: 270px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  padding: 0 20px;
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+}
+.article-brand .brand-box .btn-cta .btn-sit span {
+  display: inline-block;
+}
+.article-brand .brand-box .btn-cta .btn-sit span:last-child {
+  position: absolute;
+  right: 15px;
+  top: 16px;
+}
+.article-brand .brand-box .btn-cta .btn-sit-fancy {
+  padding: 0 15px 0 20px;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+  box-shadow: 3px 3px 0 #3253d1;
+}
+.article-brand .brand-box .btn-cta .btn-sit-fancy:hover {
+  background: #3253d1;
+  box-shadow: 3px 3px 0 #000;
+}

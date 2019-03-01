@@ -1,0 +1,102 @@
+.myVideo {
+  margin-bottom: 40px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: black;
+  min-width: 338px;
+}
+.myVideo .pics {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+.myVideo .pics .pic1 {
+  width: 100%;
+  height: 100%;
+}
+.myVideo .pics .pic2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-animation: picDraw 5s ease-in-out infinite;
+}
+@keyframes picDraw {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.myVideo .content {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.6;
+  color: #fff;
+}
+.myVideo .content .LogoImg {
+  display: block;
+  margin: 0px auto;
+  width: 290px;
+  height: auto;
+}
+.myVideo .content .fadeInUp {
+  animation-name: fadeInUp;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+.myVideo .content .one {
+  animation-delay: 0.6s;
+}
+.myVideo .content .two {
+  animation-delay: 1.2s;
+}
+.myVideo .content .three {
+  animation-delay: 1.8s;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.myVideo .content .text {
+  margin-top: 10px;
+  display: block;
+  font-size: 20px;
+}
+.myVideo .content .btn-cat {
+  padding-top: 50px;
+}
+.myVideo .content .btn-cat .btn {
+  border: 1px solid white;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+  padding: 0px 100px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+}
+.myVideo .content .btn-cat .btn span {
+  display: inline-block;
+}
+.myVideo .content .btn-cat .btn span:first-child {
+  margin-right: 10px;
+}

@@ -1,0 +1,62 @@
+.twoimg {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.twoimg article {
+  width: 100%;
+  height: 100%;
+}
+.twoimg article .box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.twoimg article .box .pic {
+  padding: 0;
+  height: 100%;
+  margin: auto;
+}
+.twoimg article .box .pic .item {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+.twoimg article .box .pic .item img {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.twoimg article .box .pic .item:nth-of-type(2) img {
+  margin-top: 12.5%;
+  display: inline-block;
+}
+.twoimg article .box .pic2 {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.twoimg article .box .pic2 .item1 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.twoimg article .box .pic2 .item1 img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.twoimg article .box .pic2 .item1:nth-of-type(2) img {
+  margin-top: 12.5%;
+  display: inline-block;
+}

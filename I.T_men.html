@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--指定IE浏览器的渲染模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <title>I.T 官方商城 | 精选时尚设计师单品网购平台</title>
+    <link rel="stylesheet/less" href="less4/main.less">
+    <script src="js/less.js"></script>
+    <script>less.watch()</script>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.js"></script>
+    <script src="js/common.js"></script>
+    <script  src="js/jquery-1.8.2.js"></script>
+</head>
+<body>
+<!--top nav部分 -->
+<div class="top-nav">
+        <div class="top-center">
+                <div class="left ws">
+                    <p>
+                        <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                        <span>购物免费配送</span>
+                    </p>
+                </div>
+                <div class="right hidden-sm">
+                    <div class="switch">
+                        <p>
+                            <span>切换店铺</span>
+                            <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                        </p>
+                        <p class="switch-store">
+                            <a href="#">
+                                <i>I.T</i>
+                                <span>前往 I.T 选购</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+         </div>
+</div>
+
+<!--顶部导航条-->
+<header class="header header-sit" id="bar">
+    <div class="header-container clearfix">
+        <div class="nav-container">
+            <ul class="nav nav-pills hidden-sm">
+                <li>
+                    <a href="#" id="sub_a">
+                        <span id="sub_span">男装</span>
+                        <div class="sub-menu" id="sub-menu">
+                            <ul>
+                                <li>
+                                    <a href="">新品上线</a>
+                                    <div class="sub-menu3">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><span>服装新品</span></a>
+                                                <a href="#"><span>服饰新品</span></a>
+                                                <a href="#"><span>鞋履新品</span></a>
+                                                <a href="#"><span>全部新品</span></a>
+                                                <a href="#" style="color:red;"><span>折扣优惠</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""> 服装</a>
+                                    <div class="sub-menu3">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><span>大衣</span></a>
+                                                <a href="#"><span>夹克</span></a>
+                                                <a href="#"><span>毛衣</span></a>
+                                                <a href="#"><span>卫衣</span></a>
+                                                <a href="#"><span>羽绒服</span></a>
+                                                <a href="#"><span>棉衣</span></a>
+                                                <a href="#"><span>全部服装</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="">配饰</a>
+                                    <div class="sub-menu3">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><span>包袋</span></a>
+                                                <a href="#"><span>帽子</span></a>
+                                                <a href="#"><span>袜类</span></a>
+                                                <a href="#"><span>腰带</span></a>
+                                                <a href="#"><span>钱包</span></a>
+                                                <a href="#"><span>领带</span></a>
+                                                <a href="#"><span>手套</span></a>
+                                                <a href="#"><span>其他配饰</span></a>
+                                                <a href="#"><span>全部配饰</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href=""> 鞋履</a>
+                                    <div class="sub-menu3">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><span>运动鞋</span></a>
+                                                <a href="#"><span>板鞋</span></a>
+                                                <a href="#"><span>休闲鞋</span></a>
+                                                <a href="#"><span>全部鞋类</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="">品牌</a>
+                                    <div class="sub-menu3">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><span>Aape</span></a>
+                                                <a href="#"><span>adidas</span></a>
+                                                <a href="#"><span>FIVE CM</span></a>
+                                                <a href="#"><span>izzue</span></a>
+                                                <a href="#"><span>OBEY</span></a>
+                                                <a href="#"><span>全部品牌</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="">I.T 30</a>
+                                    <div class="sub-menu3">
+                                        <ul>
+                                            <li>
+                                                <a href="#"><span>服饰</span></a>
+                                                <a href="#"><span>配饰</span></a>
+                                                <a href="#"><span>包袋</span></a>
+                                                <a href="#"><span>搜索更多</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="nvzhuangindex.html"><span>女装</span></a>
+                </li>
+                <li>
+                    <a href="#"><span>愿望清单</span></a>
+                </li>
+            </ul>
+           <ul class="show-sm">
+               <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                   <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+               </button>
+
+               <!-- Modal -->
+               <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                   <div class="modal-dialog" role="document">
+                       <div class="modal-content">
+                           <div class="modal-header">
+                               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                               <h3 class="modal-title" id="myModalLabel">女装 <span>男装</span></h3>
+                           </div>
+                           <div class="modal-body">
+                               <div class="searchbox">
+                                   <input type="text" placeholder="搜索女装">
+                                   <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                               </div>
+                               <div class="ul1">
+                                   <li><a href="#">首页</a></li>
+                                   <li><a href="#">新品上线</a>
+                                       <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></li>
+                                   <li><a href="#">服装</a><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></li>
+                                   <li><a href="#">配饰</a><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></li>
+                                   <li><a href="#">鞋履</a><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></li>
+                                   <li><a href="#">品牌</a><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></li>
+                                   <li><a href="#">I.T 30</a><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></li>
+                               </div>
+                               <div class="ul2">
+                                   <li><a href="#">愿望清单</a></li>
+                                   <li><a href="#">注册/登录</a></li>
+                               </div>
+                               <div class="ul3">
+                                   <li><a href="#">门店地址</a></li>
+                                   <li><a href="#">帮助中心</a></li>
+                                   <li><a href="#">会员中心</a></li>
+                               </div>
+                               <div class="gobox">
+                                   <input type="text" placeholder="I.T  前往I.T选购">
+                                   <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+                               </div>
+                           </div>
+                           <div class="modal-footer">
+                               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+
+               <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+           </ul>
+        </div>
+
+        <div class="logo">
+            <i>I.T</i>
+        </div>
+        <div class="right">
+            <ul>
+                <li class="search-box hidden-sm">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li class="site hidden-sm">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li class="account hidden-sm">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    </a>
+                </li>
+                <li class="header-shopping-bag">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-lock" aria-hidden="true"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<!--轮播图-->
+<div id="carousel-example-generic" class="carousel slide lunbohezi" data-ride="carousel">
+    <!-- 点盒子 -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <a href="#" >
+                <img src="images/cxd222.jpg" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="#" >
+                <img src="images/cxd01.jpg" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <img src="images/cxd3.jpg" alt="">
+            </a>
+        </div>
+
+    </div>
+    <a class="left carousel-control" href="#carousel-example-generic"  data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+<!--中部介绍001-->
+<div class="container container_jieshao">
+    <h5 class="h5_one">001</h5>
+    <h2 class="h2_two">独家限定系列</h2>
+    <h3 class="h3_three">自集团创始之初，发掘全球风尚潮流，始终都是 I.T 对时装爱好者的不变承诺。
+        时值 30 周年生日之际，我们携手超过 100 个全球时装品牌，特别设计一系列限定联乘单品，仅于 ITeSHOP.com 独家呈现。</h3>
+</div>
+<!--type转换-->
+    <div class="container col-md-12 col-sm-12 col-xs-12 container_type">
+        <!--标签页的头-->
+        <ul class="nav nav-tabs nav-justified  col-md-12 type_ul">
+            <li class="active col-md-6 col-sm-12 col-xs-12"><a href="#home" data-toggle="tab">男装</a></li>
+            <li class="col-md-6 col-sm-12 col-xs-12 nvzhuang" id="nvzhuang" ><a href="#profile" data-toggle="tab" class="anvzhuang" id="anvzhuang">女装</a></li>
+        </ul>
+
+        <!--标签页的内容-->
+        <div class="col-md-12 col-sm-12 col-xs-12 tab-content">
+            <div role="tabpanel tabpanel_male col-md-12 col-sm-12 col-xs-12" class="tab-pane active" id="home">
+                <div class="container-main_male col-md-12 col-sm-12 col-xs-12">
+                    <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                        <img src="images/cxd_type_1.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+
+                    </div>
+                    <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                        <img src="images/cxd_type_2.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                        <img src="images/cxd_type_3.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                        <img src="images/cxd001.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                        <img src="images/cxd002.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                        <img src="images/cxd003.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                        <img src="images/cxd_type_1.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                        <img src="images/cxd_type_2.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                        <img src="images/cxd_type_3.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel tabpanel_female" class="tab-pane" id="profile">
+                <div class="container-main_female">
+                    <div class="container-main_male col-md-12 col-sm-12 col-xs-12">
+                        <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                            <img src="images/cxd_type_4.jpg" alt="">
+                            <p class="description">G.V.G.V.</p>
+                            <p class="description"> 绑带装饰连帽卫衣</p>
+                            <p class="price">￥2,599.00</p>
+                        </div>
+                        <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                            <img src="images/cxd_type_5.jpg" alt="">
+                            <p class="description">McQ</p>
+                            <p class="description"> Logo 印花圆领 T 恤</p>
+                            <p class="price">￥1,199.00</p>
+                        </div>
+                        <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                            <img src="images/cxd_type_6.jpg" alt="">
+                            <p class="description">Golden Goose</p>
+                            <p class="description"> 饰标语复古系带运动鞋</p>
+                            <p class="price">￥4,499.00</p>
+                        </div>
+                        <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                            <img src="images/cxd114.jpg" alt="">
+                            <p class="description">G.V.G.V.</p>
+                            <p class="description"> 绑带装饰连帽卫衣</p>
+                            <p class="price">￥2,599.00</p>
+                        </div>
+                        <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                            <img src="images/cxd115.jpg" alt="">
+                            <p class="description">McQ</p>
+                            <p class="description"> Logo 印花圆领 T 恤</p>
+                            <p class="price">￥1,199.00</p>
+                        </div>
+                        <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                            <img src="images/cxd116.jpg" alt="">
+                            <p class="description">Golden Goose</p>
+                            <p class="description"> 饰标语复古系带运动鞋</p>
+                            <p class="price">￥4,499.00</p>
+                        </div>
+                        <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                            <img src="images/cxd_type_4.jpg" alt="">
+                            <p class="description">G.V.G.V.</p>
+                            <p class="description"> 绑带装饰连帽卫衣</p>
+                            <p class="price">￥2,599.00</p>
+                        </div>
+                        <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                            <img src="images/cxd_type_5.jpg" alt="">
+                            <p class="description">McQ</p>
+                            <p class="description"> Logo 印花圆领 T 恤</p>
+                            <p class="price">￥1,199.00</p>
+                        </div>
+                        <div class=" col-md-4 col-sm-5 col-xs-12 display_sth">
+                            <img src="images/cxd_type_6.jpg" alt="">
+                            <p class="description">Golden Goose</p>
+                            <p class="description"> 饰标语复古系带运动鞋</p>
+                            <p class="price">￥4,499.00</p>
+                        </div>
+                    </div>
+                    <div class=" col-sm-5 col-xs-5 display_sth">
+                        <img src="images/cxd_type_4.jpg" alt="">
+                        <p class="description">G.V.G.V.</p>
+                        <p class="description"> 绑带装饰连帽卫衣</p>
+                        <p class="price">￥2,599.00</p>
+                    </div>
+                    <div class=" col-sm-5 col-xs-5 display_sth">
+                        <img src="images/cxd_type_5.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-sm-5 col-xs-5 display_sth">
+                        <img src="images/cxd_type_6.jpg" alt="">
+                        <p class="description">Golden Goose</p>
+                        <p class="description"> 饰标语复古系带运动鞋</p>
+                        <p class="price">￥4,499.00</p>
+                    </div>
+                    <div class=" col-sm-5 col-xs-5 display_sth">
+                        <img src="images/cxd_type_4.jpg" alt="">
+                        <p class="description">G.V.G.V.</p>
+                        <p class="description"> 绑带装饰连帽卫衣</p>
+                        <p class="price">￥2,599.00</p>
+                    </div>
+                    <div class=" col-sm-5 col-xs-5 display_sth">
+                        <img src="images/cxd_type_5.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-sm-5 col-xs-5 display_sth">
+                        <img src="images/cxd_type_6.jpg" alt="">
+                        <p class="description">Golden Goose</p>
+                        <p class="description"> 饰标语复古系带运动鞋</p>
+                        <p class="price">￥4,499.00</p>
+                    </div>
+                    <div class=" col-sm-5 col-xs-5 display_sth">
+                        <img src="images/cxd_type_4.jpg" alt="">
+                        <p class="description">G.V.G.V.</p>
+                        <p class="description"> 绑带装饰连帽卫衣</p>
+                        <p class="price">￥2,599.00</p>
+                    </div>
+                    <div class=" col-sm-5 col-xs-5 display_sth">
+                        <img src="images/cxd_type_5.jpg" alt="">
+                        <p class="description">McQ</p>
+                        <p class="description"> Logo 印花圆领 T 恤</p>
+                        <p class="price">￥1,199.00</p>
+                    </div>
+                    <div class=" col-sm-5 col-xs-5 display_sth">
+                        <img src="images/cxd_type_6.jpg" alt="">
+                        <p class="description">Golden Goose</p>
+                        <p class="description"> 饰标语复古系带运动鞋</p>
+                        <p class="price">￥4,499.00</p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+</div>
+    <!--中部介绍002-->
+<div class="container container_jieshao002">
+    <h5 class="h5_one">002</h5>
+    <h2 class="h2_two">突破性数码影像</h2>
+    <h3 class="h3_three">I.T 集团联手国际数字创意新势力 The Fabricant，首度突破传统，将时装与科技交融，利用 3D动画、动态捕捉及身体扫描实现了一场超现实数字大片。本次，从先锋时装品牌到小众潮流单品皆参与其中。
+        品牌精心呈现的电子设计草图，通过尖端技术活化成立体人像，生动地展现在电子屏幕上，为未来时尚谱写出令人着迷的崭新定义。</h3>
+</div>
+    <!--视频-->
+<div class="myvideo">
+    <div class="video_contain">
+        <video src="images/video.mp4" autoplay="autoplay"></video>
+    </div>
+
+</div>
+
+    <!--中部介绍003-->
+<div class="container col-md-12 container_003">
+    <div class="container_jieshao003">
+        <div class="container pant200">
+            <div class="col-md-2 col-md-offset-5 ">
+                <h5 class="h5_003">003</h5> </div>
+        </div>
+        <div class="container mcontainer">
+            <div class="col-md-4 col-md-offset-5">
+                <h2 class="pant20 h2">限时概念展览</h2> </div>
+        </div>
+        <div class="container mcontainer">
+            <div class="col-md-2">
+                <h4 class="pant60 mcontainer mpan h4">香港</h4> </div>
+        </div>
+        <div class="container mcontainer">
+            <div class="col-md-3">
+                <h6 class="pant60 panb60 mcontainer mpan h5">展览时间<br><br>2018. 10. 26<br>12.00 - 21.00<br><br>2018. 10. 27 – 28<br>10.30 - 21.00</h6>
+            </div>
+            <div class="col-md-2 col-md-push-2 col-offset-sm-2 col-xs-12">
+                <h6 class="pant60 mcontainer mpan h5">展览地点<br><br>太古广场</h6> </div>
+            <div class="col-12-4 col-sm-12-12 col-sm-offset-12-0 h6">
+                <section class="btn-cta"> </section>
+            </div></div>
+        <div class="container mcontainer">
+            <div class="col-12-8 col-offset-12-2 col-sm-12-12 col-sm-offset-12-0" style="border-top: 1px solid white;">
+                <h4 class="pant60 mcontainer mpan h4">上海</h4> </div>
+        </div>
+        <div class="container mcontainer">
+            <div class="col-md-3 col-offset-12-2 col-sm-12-12 col-sm-offset-12-0">
+                <h6 class="pant60 panb60 mcontainer mpan h5">展览时间<br><br>2018. 11. 15 – 18</h6></div>
+            <div class="col-md-2 col-md-push-2 col-offset-sm-2 col-xs-12">
+                <h6 class="pant60 mcontainer mpan h5">展览地点<br><br>新天地</h6></div>
+            <div class="col-12-4 col-sm-12-12 col-sm-offset-12-0">
+                <section class="btn-cta"> </section>
+            </div>
+        </div>
+        <div class="container mcontainer">
+            <div class="col-12-8 col-offset-12-2 col-sm-12-12 col-sm-offset-12-0" style="border-top: 1px solid white;">
+                <h4 class="pant60 mcontainer mpan h4">北京</h4> </div>
+        </div>
+        <div class="container mcontainer">
+            <div class="col-md-2 col-sm-12 col-xs-12">
+                <h6 class="pant60 panb60 mcontainer mpan h5">展览时间<br><br>2018. 12. 2 – 9</h6></div>
+            <div class="col-md-2 col-md-push-3 col-offset-sm-2 col-xs-12">
+                <h6 class="pant60 mcontainer mpan h5">展览地点<br><br>三里屯红馆</h6> </div>
+            <div class="col-md-3 col-md-push-5 col-sm-12 col-xs-12 kuang">
+                  <a href="#" class="btn btn-white-sec"><span class="glyphicon glyphicon-hand-right"></span>&nbsp;&nbsp;&nbsp;<span>立即预约</span></a>
+                </section>
+            </div>
+        </div>
+        <!--<div class="fwidth pant200">-->
+            <!--<a href="https://cn.iteshop.com/s_it/landingPage/30th-Anniversary-sit">-->
+                <!--<picture>-->
+                    <!--<source media="(max-width: 767px)" srcset="//itmall-resources.oss-cn-hangzhou.aliyuncs.com/4/2018/10/25/15404485200046091.jpg">-->
+                    <!--<img data-src="//itmall-resources.oss-cn-hangzhou.aliyuncs.com/4/2018/10/25/1540448520082673.jpg" alt="" src="//itmall-resources.oss-cn-hangzhou.aliyuncs.com/4/2018/10/25/1540448520082673.jpg">-->
+                <!--</picture>-->
+            <!--</a>-->
+        <!--</div>-->
+    </div>
+
+</div>
+  <!--空盒子-->
+<div class="container container_jieshao">
+</div>
+   <!--bigpicture-->
+<div class="container bigpicture col-md-12 col-sm-12 col-xs-12">
+    <a href="#" class="bigpicture_a col-md-12 hidden-sm hidden-xs">
+        <img src="images/bigpicture.jpg" class="img_01" alt="">
+    </a>
+    <div id="carousel-example-generic_one" class="carousel slide hidden-md show-sm show-xs col-sm-12 col-xs-12" data-ride="carousel">
+        <!-- 点盒子 -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/bigpicture.jpg" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/cxd222.jpg" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/bigpicture.jpg" alt="...">
+            </div>
+            <div class="item">
+                <img src="images/bigpicture.jpg" alt="...">
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#carousel-example-generic"  data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+    <!--底部介绍-->
+<div class="footer_icon col-md-12 col-sm-12 col-xs-12">
+    <div class="footer_icon_top col-md-12 col-sm-12 col-xs-12">
+        <div class="footer_icon_top_one col-md-4 col-md-offset-1 col-sm-12 col-xs-12">
+                <h5 class="footer_h5">免运费</h5>
+                <p class="footer_p">全站免邮</p>
+                <span class="glyphicon glyphicon-bed footer_span"></span>
+        </div>
+        <div class="footer_icon_top_two col-md-4 col-md-offset-2 col-sm-12 col-xs-12">
+            <h5 class="footer_h5_two">关于我们</h5>
+        </div>
+    </div>
+    <div class="footer_icon_bottom">
+        <label class="control-label col-md-2 col-md-offset-1 col-sm-12 col-xs-12">订阅 i.t 电子报</label>
+        <div class="form-input col-md-5 col-sm-12 col-xs-12">
+            <div class="subscribe-content col-md-4 col-sm-12 col-xs-12">
+                <input class="footer_icon_bottom_input" type="text" maxlength="60" placeholder="电子邮箱">
+            </div>
+        </div>
+        <div class="subscribe-btn col-md-4 col-sm-12  col-xs-12">
+            <a class="btn btn-sit-black subscribe-sign-btn subscribe-btn_a" id="subscribe-btn_a"><span class="subscribe-btn_a_span" id="subscribe-btn_a_span">订阅</span></a>
+        </div>
+    </div>
+</div>
+        <!--页脚-->
+<div class="footer-bottom col-md-12 col-sm-12 col-xs-12">
+    <div class="footer-con clearfix">
+        <ul class="footer-help  col-md-12 col-sm-12 col-xs-12">
+            <li class="col-md-2 col-md-pull-1 col-sm-6 col-xs-6">
+                <a href="javascript:void(0)" onclick="openLiveChat()"><i class="iconfont icon-icon_chat"></i> 在线客服</a>
+                <div class="hidden-md show-sm show-xs">
+                    <p class="col-sm-12 col-xs-12">10:00 – 24:00 (周一至周日)</p>
+                    <p class="col-sm-12 col-xs-12">10:00 – 18:00 (节假日)</p>
+                    <a class="btn btn-white-sec col-sm-12 col-xs-12 "id="btn_a"><span>联系客服</span></a>
+                </div>
+            </li>
+            <li class="col-md-2 col-md-pull-2 col-sm-12 col-xs-12">
+                <a href="/s_it/help/help-centre" target="_blank">帮助中心</a>
+            </li>
+            <li class="col-md-2 col-md-pull-2 col-sm-6 col-xs-6">
+                <a href="/s_it/help/help-centre" target="_blank">联系我们</a>
+            </li>
+            <li class="col-md-2 col-md-pull-2 col-sm-6 col-xs-6">
+                <a href="/s_it/help/membership" target="_self">会员制度</a>
+            </li>
+            <li class="col-md-2 col-md-pull-2 col-sm-6 col-xs-6">
+                <a href="https://my-cn.iteshop.com/order-inquiry" target="_blank">订单查询</a>
+            </li>
+            <li class="col-md-2 col-md-pull-2 col-sm-6 col-xs-6">
+                <a href="/s_it/help/about-us" target="_blank">关于我们</a>
+            </li>
+        </ul>
+        <div class="footer-right col-md-4 col-md-offset-8 col-sm-12 col-xs-12">
+            <div class="dropdown footer_dropdown">
+                <button id="mybutton" class="btn btn-default" data-toggle="dropdown">
+                    中国<span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+
+                    <li class="divider"></li>
+                    <li>中国香港</li>
+                    <li class="divider"></li>
+                    <li>中国台湾</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    <div class="footer-statement-content col-md-12">
+        <div class="footer-statement col-md-12">
+            <ul class="float-clearfix">
+                <li class="col-md-1 col-sm-6 col-xs-6">
+                    <a href="/s_it/help/terms-of-use" target="">服务条款</a>
+                </li>
+                <li class="col-md-1 col-sm-6 col-xs-6">
+                    <a href="/s_it/help/privacy-policy" target="">隐私政策</a>
+                </li>
+                <li class="col-md-1 col-sm-6 col-xs-6">
+                    <a href="/s_it/help/cookies-policy" target="">Cookie 政策</a>
+                </li>
+                <li class="col-md-1 col-sm-6 col-xs-6"><a href="http://www.miitbeian.gov.cn" target="_blank">沪ICP备15007211号-3</a></li>
+                <li class="col-md-1 col-sm-6 col-xs-6"><a href="http://218.242.124.22:8081/businessCheck/verifKey.do?showType=extShow&amp;serial=9031000020161110110515000001370635-SAIC_SHOW_310000-2017082515333248784&amp;signData=MEUCIQDTXyanSc2JXTm3D116AWQCu6U4v4gIFZPC/eE2rJ//KgIgSDtsyF9u9BecFGJfQHr97qEQ5Svk2vS2QSFqOWhWbuA=" target="_blank"><i class="icon icon-gongshang"></i>上海工商</a></li>
+                <li class="col-md-1 col-sm-6 col-xs-6"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010102004473 "><i class="icon icon-hugongwangbei"></i>沪公网安备 31010102004473号</a></li>
+            </ul>
+        </div>
+        <div class="footer-icp col-md-12 col-sm-12 col-xs-12">
+            <div class="icon-Logo_SIT_Black col-md-1 col-sm-6 col-xs-6"></div>
+            <div class=" col-md-4 col-md-offset-1 col-sm-6 col-xs-6"><span class="glyphicon glyphicon-copyright-mark"><span>2018</span> 采廷商贸（上海）有限公司</span></div>
+        </div>
+
+    </div>
+    </div>
+    <!--小火箭回到顶部-->
+<div class="backtotop" id="backtotop">
+
+</div>
+</body>
+
+<script src="lib/jquery/jquery-1.9.1.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script>
+   $(".itnavbar-toggle").click(function () {
+       $(".itnav li").attr("display","block");
+   })
+</script>
+<script>
+    $('.carousel').carousel({
+        interval: 500
+    })
+</script>
+<script>
+    $(function () {
+        $("#nvzhuang").click(function () {
+            $("#anvzhuang").css("color","black");
+    })
+    })
+</script>
+<script>
+    var $menu =  $('.dropdown-menu');
+    $("#mybutton").click(function(){
+        $('.dropdown-menu').dropdown();
+    })
+</script>
+<script>
+    $(function(){
+        $("#btn_a").click(function(){
+            $("#btn_a").css("background-color","#fff","color","#000");
+
+        })
+    })
+</script>
+<script type="text/javascript">
+    window.onscroll=function(){
+        var topScroll =document.body.scrollTop;
+        var bar  = document.getElementById("bar");
+        if(topScroll > 50){
+            bar.style.position = 'fixed';
+            bar.style.top = '0';
+            bar.style.background = 'white';
+
+            bar.style.zIndex = '9999';
+        }else{
+            bar.style.position = 'static';
+        }
+    }
+</script>
+<script>
+    $(function () {
+        $("#sub_span").click(function(){
+            $("#sub-menu").css("display","block");
+        })
+        $("#sub-menu").mouseleave(function(){
+            $("#sub-menu").css("display","none");
+        })
+    })
+</script>
+<script>
+    $(function () {
+        $("#backtotop").click(function(){
+            $('html , body').animate({scrollTop: 0},'slow');
+        })
+    })
+</script>
+
+</html>
+
+
+

@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
+}
+body{
+  font-size: 14px;
+  font-family: "Microsoft YaHei",sans-serif;
+  color: #333;
+  //background-color: #ffcd00;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+input,textarea{
+  border: none;
+  outline: none;
+  resize: none;
+  -webkit-appearance: none;
+}
+.f_left{
+  float: left;
+}
+.f_right{
+  float: right;
+}
+
+.clearFix{
+  &::before{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+  }
+  &::after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+    clear: both;
+  }
+}
+
+
+.m_l10{
+  margin-left:10px;
+
+}
+.m_r10{
+  margin-right:10px;
+}
+.m_t10{
+  margin-top:10px;
+}
+.m_b10{
+  margin-bottom:10px;
+}
+
+@media  screen and (max-width: 1024px) {
+  .hidden-sm {
+    display: none !important;
+  }
+
+  .ws {
+    width: 100% !important;
+    p {
+      text-align: center;
+      margin: auto auto;
+      padding: 10px !important;
+    }
+  }
+
+  .show-sm {
+    display: block !important;
+  }
+
+  .header-sit {
+    height: 50px !important;
+    .nav-container{
+      ul{
+        &:last-child{
+          span{
+            padding-top: 10px !important;
+          }
+        }
+      }
+    }
+    .logo{
+        i{
+          font-size: 23px !important;
+          line-height: 23px !important;
+          margin-top: -5px;
+        }
+    }
+    .right {
+      li {
+        &.header-shopping-bag {
+          a {
+            padding-top: 10px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media  screen and (min-width: 1024px){
+  .show-sm{
+    display: none !important;
+  }
+  .header-sit{
+    height:60px !important;
+  }
+}
+
+
+
+
+
+

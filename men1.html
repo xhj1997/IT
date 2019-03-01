@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <!--指定IE浏览器的渲染模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>it</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet/less" href="less2/main.less">
+    <script src="js/less.js"></script>
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.js"></script>
+    <![endif]-->
+    <style>
+        .item{
+            width: 100%;
+            height: 3.5rem;
+            overflow: hidden;
+        }
+        .item img{
+            width: 100%;
+            height: 100%;
+        }
+        .carousel{
+            position:relative;
+            top:-0.25rem;
+        }
+        /*.navbar-header{*/
+            /*width: 100%;*/
+            /*background-color: white;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+<!--顶部通栏-->
+<header class="it_topBar hidden-sm hidden-xs" id="topAnchor">
+        <div class="row">
+            <div class="col-md-6">
+                <a href="#" class="it_shopping">
+                    <span class="glyphicon glyphicon-globe"></span>
+                    <span>购物免费配送</span>
+                </a>
+            </div>
+            <div class="col-md-6">
+                    <a href="#" class="it_store">
+                        <span>切换店铺</span>
+                        <span class="glyphicon glyphicon-menu-down">
+                        </span>
+                    </a>
+                <a href="#" class="aa">
+                    <strong class="it">I.T</strong>
+                    <span>前往 I.T 选购</span>
+                </a>
+
+
+            </div>
+
+        </div>
+</header>
+<!--导航栏-->
+<div class="bar clearfix" id="bar">
+    <nav class="navbar navbar-default hidden-lg hidden-md hidden-sm">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header clearfix">
+                <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3">
+                    <span class="glyphicon glyphicon-lock"></span>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">I.t</a>
+            </div><!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="li1"><span>男装</span> <span>女装</span><span class="glyphicon glyphicon-remove pull-right"></span></li>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <!--<span class="glyphicon glyphicon-search seach"></span>-->
+                        </div>
+                    </form>
+                    <li class="dropleft">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">首页 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li><li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">新品上线 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li><li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">服装 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li><li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">配饰 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li><li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">鞋履 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li><li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">品牌 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li><li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">I.T 30 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                    <hr>
+                    <li><a href="#">愿望清单</a></li>
+                    <li><a href="#">注册/登录</a></li>
+                    <hr>
+                    <li><a href="#">门店地址</a></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li><a href="#">会员制度</a></li>
+                    <hr>
+                    <li><a href="#" class="bb">I.T 前往IT选购 <span class="glyphicon glyphicon-hand-right pull-right"></span></a></li>
+                </ul>
+
+                <!--<ul class="nav navbar-nav navbar-right">-->
+                <!--<li><a href="#">Link</a></li>-->
+                <!--<li class="dropdown">-->
+                <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
+                <!--<ul class="dropdown-menu">-->
+                <!--<li><a href="#">Action</a></li>-->
+                <!--<li><a href="#">Another action</a></li>-->
+                <!--<li><a href="#">Something else here</a></li>-->
+                <!--<li role="separator" class="divider"></li>-->
+                <!--<li><a href="#">Separated link</a></li>-->
+                <!--</ul>-->
+                <!--</li>-->
+                <!--</ul>-->
+            </div><!-- /.navbar-collapse -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav">
+                    <li class="li1"><span>男装</span> <span>女装</span><span class="glyphicon glyphicon-remove pull-right"></span></li>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <!--<span class="glyphicon glyphicon-search seach2"></span>-->
+                        </div>
+                    </form>
+
+                </ul>
+
+
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="bignav hidden-xs clearfix">
+        <ul class="pull-left lst">
+            <li class="pull-left menlst"><a href="I.T-demo.html">女装</a>
+            </li>
+            <li class="pull-left womenlst"><a href="men1.html">男装</a></li>
+            <li class="pull-left"><a href="#">心愿清单</a></li>
+        </ul>
+        <a href="#" class="centerli"><span>I.t</span></a>
+        <ul class="pull-right clearfix">
+            <li class="pull-right"><a href=""><span class="glyphicon glyphicon-search "></span></a></li>
+            <li class="pull-right"><a href=""><span class="glyphicon glyphicon-map-marker "></span></a></li>
+            <li class="pull-right"><a href=""><span class="glyphicon glyphicon-user "></span></a></li>
+            <li class="pull-right"><a href=""><span class="glyphicon glyphicon-lock "></span></a></li>
+
+        </ul>
+    </div>
+    <div class="down">
+
+    </div>
+    <div class="down2"></div>
+</div>
+
+<!--bigBanner-->
+    <!--slide:是否加上滑动效果-->
+<div id="carousel-example-generic" class="carousel slide hidden-lg hidden-md hidden-sm" data-ride="carousel">
+        <!-- Indicators -->
+        <!--data-slide-to：切换到第几张-->
+        <ol class="carousel-indicators">
+
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic"  data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+<div class="video hidden-xs hidden-lg">
+    <div class="contain">
+        <div class="col-12-8 col-offset-12-2  col-sm-12-12 col-sm-offset-12-0">
+            <div class="banner col-12-12" id="Y30D4Banner">
+                <video width="100%" height="500px" poster="images/bigbanner.jpg" src="images/banner.mp4" controls>
+            </video>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bigBanner hidden-md hidden-xs hidden-sm">
+    <img src="images/30g.png" class="img-responsive" alt="">
+    <span>
+        <br>
+        I.T 30 周年庆典特辑
+        <br>
+        Celebrating 30 years  of Inspiration
+    </span>
+    <button>
+        <span class="glyphicon glyphicon-hand-right"></span>
+        <span><a href="">探索更多</a></span>
+    </button>
+</div>
+<!--button组-->
+<div class="btn-group-box">
+    <ul class="hidden-lg hidden-md">
+        <li class="row1">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>新品推荐</span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>I.T 30周年</span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>Aape</span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>Fred Perry</span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>所有品牌</span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>所有商品</span>
+                </a>
+            </div>
+        </li>
+        <li class="row1">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>卫衣</span>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>裤装</span>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>配饰</span>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 btns">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>折扣优惠</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+<!--</div>-->
+<!--<div class="btn-group-box1">-->
+    <ul class="hidden-sm hidden-xs">
+        <li class="row">
+            <div class="btn-box col-md-4 col-sm-6">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>新品推荐</span>
+                </a>
+            </div>
+            <div class="btn-box col-md-4 col-sm-6">
+                <a href="" target="_self" class="btn-sit btn-sit-link">
+                    <span>I.T 30周年</span>
+                </a>
+            </div>
+            <div class="btn-box col-md-4 col-sm-6">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>Aape</span>
+                </a>
+            </div>
+
+            <div class="btn-box col-md-4 col-sm-6">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>Fred Perry</span>
+                </a>
+            </div>
+
+            <div class="btn-box col-md-4 col-sm-6">
+                <a href="#" target="_blank" class="btn-sit btn-sit-link">
+                    <span>所有品牌</span>
+                </a>
+            </div>
+
+            <div class="btn-box col-md-4 col-sm-6">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>所有商品</span>
+                </a>
+            </div>
+
+        </li>
+        <li class="row">
+
+            <div class="btn-box col-md-3 col-sm-6">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>卫衣</span>
+                </a>
+            </div>
+
+            <div class="btn-box col-md-3 col-sm-6">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>裤装</span>
+                </a>
+            </div>
+
+            <div class="btn-box col-md-3 col-sm-6">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>配饰</span>
+                </a>
+            </div>
+
+            <div class="btn-box col-md-3 col-sm-6">
+                <a href="#" target="_self" class="btn-sit btn-sit-link">
+                    <span>折扣优惠</span>
+                </a>
+            </div>
+
+        </li>
+    </ul>
+</div>
+<!--twoimg-->
+<div class="twoimg clearfix">
+    <article>
+        <div class="box">
+            <div class="pic  hidden-sm hidden-xs">
+                <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+                    <img src="images/img1.jpg" alt="">
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12 item">
+                    <img src="images/img2.jpg" alt="">
+                </div>
+            </div>
+            <div class="pic2 hidden-md hidden-lg">
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
+                    <img src="images/img1b.jpg" alt="">
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
+                    <img src="images/img2b.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </article>
+
+</div>
+<!--新品速览-->
+<div class="tuji">
+    <h1>新品速览</h1>
+    <div class="newProducts">
+        <ul class="clearfix">
+            <li>
+                <div class="carval">
+                    <a href="#"> <img src="images/new1.jpg" alt=""></a>
+                    <p class="bold" >izzue</p>
+                    <p>izzuextreme 缝饰连帽羽绒服</p>
+                    <p class="bold" >¥1,799.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="carval">
+                    <a href="#"> <img src="images/new2.jpg" alt=""></a>
+                    <p class="bold">izzue</p>
+                    <p>izzuextreme 缝饰连帽羽绒服</p>
+                    <p class="bold">¥1,799.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="carval">
+                    <a href="#"> <img src="images/new3.jpg" alt=""></a>
+                    <p class="bold" >izzue</p>
+                    <p>izzuextreme 缝饰连帽羽绒服</p>
+                    <p class="bold" >¥1,799.00</p>
+                </div>
+            </li>
+            <li>
+                <div class="carval">
+                    <a href="#"> <img src="images/new4.jpg" alt=""></a>
+                    <p class="bold" >izzue</p>
+                    <p>izzuextreme 缝饰连帽羽绒服</p>
+                    <p class="bold" >¥1,799.00</p>
+                </div>
+            </li>
+        </ul>
+        <div class="btncat col-sm-12 col-xs-12">
+            <a class="" href="#" target="_self">
+                <span>立即选购</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </a>
+        </div>
+        <!--<div class="hidden-lg hidden-md col-md-8 col-md-offset-2 col-sm-12 col-xs-12 btncat1">-->
+            <!--<a class="" href="#" target="_self">-->
+                <!--<span>立即选购</span>-->
+                <!--<span class="glyphicon glyphicon-menu-right"></span>-->
+            <!--</a>-->
+        <!--</div>-->
+    </div>
+</div>
+<!--bigimg-->
+<div class="bigimg">
+<div class="big hidden-sm hidden-xs">
+    <img src="images/big.jpg" alt="">
+</div>
+    <div class="small hidden-md hidden-lg">
+        <img src="images/small.jpg" alt="">
+    </div>
+
+</div>
+<!--twoimg-->
+<div class="twoimg2 clearfix">
+    <article>
+        <div class="box">
+            <div class="pic  hidden-sm hidden-xs">
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
+                    <img src="images/imgpc1.jpg" alt="">
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 item2">
+                    <img src="images/imgpc2.jpg" alt="">
+                </div>
+            </div>
+            <div class="pic2 hidden-md hidden-lg">
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
+                    <img src="images/imgsm1.jpg" alt="">
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 item1">
+                    <img src="images/imgsm2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </article>
+
+</div>
+<!--拖拉图片-->
+<div class="ppai">
+    <div class="container">
+        <div class="title col-lg-2 col-md-12 col-sm-12 col-xs-12">
+            <p>人气品牌</p>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 scrollimg">
+            <ul>
+                <li>
+                    <div>
+                        <img src="images/scroll1.jpg" alt="">
+                        <p>AAPE</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/scroll2.jpg" alt="">
+                        <p>Fred Perry</p>
+                    </div>
+
+                </li>
+                <li>
+                    <div>
+                        <img src="images/scroll3.jpg" alt="">
+                        <p>Obey</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/scroll4.jpg" alt="">
+                        <p>izzue</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/scroll5.jpg" alt="">
+                        <p>5cm</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/scroll6.jpg" alt="">
+                        <p>MUSIUM DIV.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/scroll7.jpg" alt="">
+                        <p>adidas</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 btncat">
+            <a class="" href="#" target="_self">
+                <span>浏览全部</span>
+                <span class="glyphicon glyphicon-menu-right"></span>
+            </a>
+        </div>
+    </div>
+</div>
+<!--footer-->
+<div class="footer">
+    <div class="footertop clearfix">
+        <div class="col-xs-6">
+          <div class="first">
+              <div class="shang">
+              </div>
+              <div class="xia">
+                  <h5>免运费</h5>
+                  <p>全站免邮</p>
+                  <span class="glyphicon glyphicon-calendar"></span>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="sec">
+                <div class="shang"></div>
+                <div class="xia">
+                    <h5>查找店铺</h5>
+                    <span class="glyphicon glyphicon-map-marker"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="next">
+        <div class="footermiddle clearfix">
+
+            <div class="col-lg-4 col-md-12">
+                <label class="control-label">订阅 i.t 电子报</label>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <input type="text" maxlength="60" placeholder="电子邮箱">
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <a class="dingyue">
+                    <span>订阅</span>
+                </a>
+            </div>
+        </div>
+        <div class="footermain clearfix">
+            <div class="col-lg-1 col-md-1 col-sm-12 col-xs-12">
+                <span class="glyphicon glyphicon-cloud"></span>
+                <span>客服</span>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 hidden-lg">
+                <span>10:00 – 24:00 (周一至周日)</span>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 hidden-lg">
+                <span>10:00 – 18:00 (节假日)</span>
+            </div>
+            <div class="col-md-12 col-sm-12 col-xs-12 hidden-lg">
+                <a class="lianxi">
+                    <span>联系客服</span>
+                </a>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-6 col-xs-6" style="display: inline-block;">
+                <span>帮助中心</span>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-6 col-xs-6" style="display: inline-block;">
+                <span>联系我们</span>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-6 col-xs-6" style="display: inline-block;">
+                <span> 会员制度</span>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-6 col-xs-6" style="display: inline-block;">
+                <span> 订单查询</span>
+            </div>
+            <div class="col-lg-1 col-md-1 col-sm-6 col-xs-12">
+                <span> 关于我们</span>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="btn-group dropup china">
+                    <button type="button" class="btn btn-default dropdown-toggle" style=" height: 43px;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="caret"></span>
+                        <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <button type="button" class="btn btn-default ccc">
+                        <span class="chinese"></span>
+                        <span>中国</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <span class="chinese"></span>
+                            <span>中国</span>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <span class="xianggang"></span>
+                            <span>中国香港</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="icon1 col-lg-4 col-lg-offset-8 col-md-4 col-md-offset-8 col-sm-12 col-xs-12">
+                <span class="glyphicon glyphicon-qrcode"></span>
+                <span class="glyphicon glyphicon-list-alt"></span>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <div class="footer-statement">
+                <ul class="float-clearfix">
+                    <li><a href="#" target="">服务条款</a></li>
+                    <li><a href="#" target="">隐私政策</a></li>
+                    <li><a href="#" target="">Cookie 政策</a></li>
+                    <li><a href="#" target="_blank">沪ICP备15007211号-3</a></li>
+                    <li><a href="#" target="_blank"><i class="icon icon-gongshang"></i>上海工商</a></li>
+                    <li><a target="_blank" href="#"><i class="icon icon-hugongwangbei"></i>沪公网安备 31010102004473号</a></li>
+                </ul>
+            </div>
+            <div class="footer-icp">
+                <span class="iconfontit"></span>
+                <span>© <span>2018</span> 采廷商贸（上海）有限公司</span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="totop">
+    <a href="#topAnchor">
+
+    </a>
+</div>
+
+
+
+
+</body>
+<script src="lib/jquery/jquery-1.9.1.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/template-web.js"></script>
+<script src="IScroll/iscroll.js"></script>
+<script type="text/html" id="downlist">
+    {{each list as value i}}
+    <div class="list-dl">
+       <dl>
+           <dt><a href="#">{{value.dt}}</a></dt>
+           <dd><a href="#">{{value.d1}}</a></dd>
+           <dd><a href="#">{{value.d2}}</a></dd>
+           <dd><a href="#">{{value.d3}}</a></dd>
+           <dd><a href="#">{{value.d4}}</a></dd>
+           <dd><a href="#">{{value.d5}}</a></dd>
+           <dd><a href="#">{{value.d6}}</a></dd>
+           <dd><a href="#">{{value.d7}}</a></dd>
+           <dd><a href="#">{{value.d8}}</a></dd>
+           <dd><a href="#">{{value.d9}}</a></dd>
+           <dd><a href="#">{{value.d10}}</a></dd>
+       </dl>
+    </div>
+    {{/each}}
+</script>
+<script type="text/html" id="downlist2">
+    {{each list as value i}}
+    <div class="list-dl2">
+       <dl>
+           <dt><a href="#">{{value.dt}}</a></dt>
+           <dd><a href="#">{{value.d1}}</a></dd>
+           <dd><a href="#">{{value.d2}}</a></dd>
+           <dd><a href="#">{{value.d3}}</a></dd>
+           <dd><a href="#">{{value.d4}}</a></dd>
+           <dd><a href="#">{{value.d5}}</a></dd>
+           <dd><a href="#">{{value.d6}}</a></dd>
+           <dd><a href="#">{{value.d7}}</a></dd>
+           <dd><a href="#">{{value.d8}}</a></dd>
+           <dd><a href="#">{{value.d9}}</a></dd>
+           <dd><a href="#">{{value.d10}}</a></dd>
+       </dl>
+    </div>
+    {{/each}}
+</script>
+<script>
+    //1.数据源
+    var data = [
+        {
+            "dt":"新品上线",
+            "d1":"服装新品",
+            "d2":"包袋新品",
+            "d3":"鞋履新品",
+            "d4":"全部新品",
+            "d5":"折扣优惠"
+        },
+        {
+            "dt":"服装",
+            "d1":"大衣及夹克",
+            "d2":"毛衣",
+            "d3":"衬衫",
+            "d4":"卫衣",
+            "d5":"T恤",
+            "d6":"裤装",
+            "d7":"牛仔裤",
+            "d8":"贴身衣物/内衣",
+            "d9":"全部服装"
+        },
+        {
+            "dt":"配饰",
+            "d1":"包袋",
+            "d2":"腰带",
+            "d3":"帽子",
+            "d4":"钱包",
+            "d5":"其它配饰",
+            "d6":"全部配饰"
+        },
+        {
+            "dt":"鞋履",
+            "d1":"运动鞋",
+            "d2":"平底鞋",
+            "d3":"高跟鞋",
+            "d4":"靴子",
+            "d5":"凉鞋",
+            "d6":"全部鞋履"
+        },
+        {
+            "dt":"品牌",
+            "d1":"adidas",
+            "d2":"b+ab",
+            "d3":"earth music&ecology",
+            "d4":"Free People",
+            "d5":"izzue",
+            "d6":"Stylenanda",
+            "d7":" tout ā coup",
+            "d8":"Venilla Suite",
+            "d9":"全部品牌"
+
+        },
+        {
+            "dt":"I.T 30",
+            "d1":"服饰",
+            "d2":"配饰",
+            "d3":"鞋履",
+            "d4":"包袋",
+            "d5":"探索更多"
+        }
+    ];
+    //渲染页面的方法
+    function render(){
+        //1.渲染图片的数据
+        var html = template("downlist",{list:data});
+        document.querySelector(".down").innerHTML = html;
+    }
+    render();
+
+
+</script>
+<script>
+    //1.数据源
+    var data2 = [
+        {
+            "dt":"新品上线",
+            "d1":"服装新品",
+            "d2":"包袋新品",
+            "d3":"鞋履新品",
+            "d4":"全部新品",
+            "d5":"折扣优惠"
+        },
+        {
+            "dt":"服装",
+            "d1":"大衣及夹克",
+            "d2":"毛衣",
+            "d3":"上衣",
+            "d4":"卫衣",
+            "d5":"衬衫",
+            "d6":"T 恤",
+            "d7":"裤装",
+            "d8":"牛仔裤" ,
+            "d9":"贴身衣物/内衣",
+            "d10":"全部服装"
+        },
+        {
+            "dt":"配饰",
+            "d1":"包袋",
+            "d2":"腰带",
+            "d3":"帽子",
+            "d4":"钱包",
+            "d5":"袜类",
+            "d6":"围巾及手套",
+            "d7":"其它配饰",
+            "d8":"全部配饰"
+
+        },
+        {
+            "dt":"鞋履",
+            "d1":"运动鞋",
+            "d2":"平底鞋",
+            "d3":"凉鞋",
+            "d4":"全部鞋履"
+        },
+        {
+            "dt":"品牌",
+            "d1":"adidas",
+            "d2":"Aape",
+            "d3":"FIVE CM",
+            "d4":" Fred Perry",
+            "d5":"izzue",
+            "d6":" MUSIUM DIV.",
+            "d7":" OBEY",
+            "d8":"全部品牌"
+        },
+        {
+
+            "dt":"I.T 30",
+            "d1":"服饰",
+            "d2":"配饰",
+            "d3":"鞋履",
+            "d4":"包袋",
+            "d5":"探索更多"
+        }
+    ];
+
+    //渲染页面的方法
+    function render1(){
+        //1.渲染图片的数据
+        var html2 = template("downlist2",{list:data2});
+        document.querySelector(".down2").innerHTML = html2;
+    }
+    render1();
+</script>
+<script>
+    $(".it_store").mouseenter(function () {
+        $(".aa").css("display","block");
+    }).mouseleave(function () {
+        $(".aa").css("display","none");
+    })
+</script>
+<script>
+    $(".menlst,.down").mouseenter(function () {
+        $(".down").css("display","block");
+    }).mouseleave(function () {
+        $(".down").css("display","none");
+    })
+</script>
+<script>
+    $(".womenlst,.down2").mouseenter(function () {
+        $(".down2").css("display","block");
+    }).mouseleave(function () {
+        $(".down2").css("display","none");
+    })
+</script>
+<script type="text/html" id="carouselinner">
+    {{each list as value i}}
+    <div class="item {{i==0?'active':''}}">
+        {{if isMobile}}
+        <img src="{{value.mUrl}}" alt="">
+        {{else}}
+        <a href="#" style="background-image:url({{value.pcUrl}})"></a>
+        {{/if}}
+    </div>
+    {{/each}}
+</script>
+<script type="text/html" id="carouselindicators">
+    {{each list as value i}}
+    <li data-target="#carousel-example-generic" data-slide-to="i" class="{{i==0?'active':''}}"></li>
+    {{/each}}
+</script>
+<script>
+    $(".carousel").carousel({
+        interval:100
+    })
+</script>
+<script>
+    //1.数据源
+    var data = [
+        {
+            "pcUrl":"images/bigbanner.jpg",
+            "mUrl":"images/bigbanner.jpg"
+        },
+        {
+            "pcUrl":"images/bigbanner2.jpg",
+            "mUrl":"images/bigbanner2.jpg"
+        },
+        {
+            "pcUrl":"images/bigbanner4.jpg",
+            "mUrl":"images/bigbanner4.jpg"
+        },
+        {
+            "pcUrl":"images/bigbanner2.jpg",
+            "mUrl":"images/bigbanner2.jpg"
+        }
+    ];
+
+    //    首先获取屏幕宽度
+    var width=0;
+    var isMobile=false;
+    window.onresize=function () {
+        width=document.body.clientWidth||document.documentElement.clientWidth;
+        isMobile = false;
+        if(width<768){
+            isMobile=true;
+        }
+        else{
+            isMobile=false;
+        }
+        render();
+    }
+    window.onresize();
+
+    function render(){
+        var html=template("carouselinner",{list:data,isMobile:isMobile});
+        document.querySelector(".carousel-inner").innerHTML=html;
+
+        var html2=template("carouselindicators",{list:data});
+        document.querySelector(".carousel-indicators").innerHTML=html2;
+    }
+
+</script>
+<script>
+    //1.获取所有的li
+    $lis = $(".ppai .scrollimg ul li");
+    //2.遍历每一个li，统计所有li的宽度
+    var ul_width = 0;
+    $lis.each(function(idx,elem){
+//获取每一个li实际占据的空间宽度
+        var ewidth = $(elem).outerWidth(true);
+        ul_width += ewidth;
+    })
+    //3.设置ul的宽度为li的宽度的总和
+    $(".ppai .scrollimg ul").width(ul_width);
+
+    //4.初始化isroll滚动
+    new IScroll($('.scrollimg')[0],{
+        scrollX:true,
+        scrollY:false,
+        click:true
+    });
+
+    //5.初始化工具栏提示
+    $('[data-toggle="tooltip"]').tooltip()
+</script>
+<script>
+    //1.获取所有的li
+    $lis = $(".tuji .newProducts ul li");
+    //2.遍历每一个li，统计所有li的宽度
+    var ul_width = 0;
+    $lis.each(function(idx,elem){
+//获取每一个li实际占据的空间宽度
+        var ewidth = $(elem).outerWidth(true);
+        ul_width += ewidth;
+    })
+    //3.设置ul的宽度为li的宽度的总和
+    $(".tuji .newProducts ul").width(ul_width);
+
+    //4.初始化isroll滚动
+    new IScroll($('.newProducts')[0],{
+        scrollX:true,
+        scrollY:false,
+        click:true
+    });
+
+    //5.初始化工具栏提示
+    $('[data-toggle="tooltip"]').tooltip()
+</script>
+<script type="text/javascript">
+    window.onscroll=function(){
+        var topScroll =document.body.scrollTop;
+        var bar  = document.getElementById("bar");
+        if(topScroll > 50){
+            bar.style.position = 'fixed';
+            bar.style.top = '0';
+            bar.style.background = 'white';
+            bar.style.width="100%";
+            bar.style.zIndex = '9999';
+        }else{
+//            bar.style.width="0";
+            bar.style.position = 'static';
+        }
+    }
+</script>
+
+</html>

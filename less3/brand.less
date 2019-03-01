@@ -1,0 +1,115 @@
+.article-brand{
+  width: 100%;
+  padding: 25px 0 100px;
+  .brand-box{
+    width: 100%;
+    position:relative;
+    overflow: hidden;
+    .brand-left{
+      width: 23%;
+      position: absolute;
+      left:0px;
+      p{
+        font-size: 20px;
+        color:#000;
+        letter-spacing:1px;
+        line-height: 26px;
+        text-align: left;
+        font-weight: 700;
+      }
+    }
+    .swiper-container1{
+      margin-left:auto;
+      margin-right: auto;
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+      .swiper-wrapper1{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index:1;
+        overflow: hidden;
+        ul{
+          li{
+            display: inline-block;
+            position: relative;
+            width: 269px;
+            margin-right: 29px;
+            float:left;
+            &:last-child{
+              margin-right: 0px;
+            }
+            a:hover{
+              text-decoration: none;
+            }
+            .img-box{
+              width: 100%;
+              display: block;
+              perspective: 100px;
+              img{
+                width: 100%;
+                &:hover{
+                  transition:transform 1s;
+                  transform: translateZ(5px);
+                }
+              }
+              p{
+                font-family: "微软雅黑";
+                font-size: 15px;
+                color:#000;
+                letter-spacing: .54px;
+                line-height: 21px;
+                margin-top: 20px;
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+    .brand-right{
+      padding:1px;
+      height: 100%;
+      margin-left: 300px;
+    }
+    .btn-cta{
+      position: absolute;
+      left:0;
+      bottom:42px;
+      .btn-sit{
+        min-width: 270px;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        vertical-align: middle;
+        padding: 0 20px;
+        font-size: 16px;
+        height: 48px;
+        line-height: 48px;
+        span{
+          display: inline-block;
+          &:last-child{
+            position: absolute;
+            right: 15px;
+            top:16px;
+          }
+
+        }
+      }
+      .btn-sit-fancy{
+        padding: 0 15px 0 20px;
+        text-align: left;
+        background: #fff;
+        border: 1px solid #000;
+        color:#000;
+        box-shadow: 3px 3px 0 #3253d1;
+        &:hover{
+          background:#3253d1 ;
+          box-shadow: 3px 3px 0 #000;
+        }
+      }
+
+    }
+  }
+}

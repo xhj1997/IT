@@ -1,0 +1,361 @@
+.footer {
+  padding: 0;
+}
+.footer .footer-con div {
+  padding: 60px 0 0;
+}
+.footer .footer-con .footer-top-left {
+  width: 100%;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  margin-top: -100px;
+  min-width: 450px;
+}
+.footer .footer-con .footer-top-left li {
+  float: left;
+  padding-top: 10px;
+  border: 1px solid #000;
+  position: relative;
+  width: 48%;
+}
+.footer .footer-con .footer-top-left li a {
+  width: 100%;
+  height: 90px;
+  padding: 20px;
+  border-top: 1px solid #000;
+  display: block;
+  position: relative;
+}
+.footer .footer-con .footer-top-left li a:hover {
+  text-decoration: none;
+}
+.footer .footer-con .footer-top-left li a span {
+  right: 19px;
+  top: 57px;
+  font-size: 20px;
+  position: absolute;
+}
+.footer .footer-con .footer-top-left li h5 {
+  margin-bottom: 1px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 21px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.footer .footer-con .footer-top-left li p {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 18px;
+  font-weight: normal;
+}
+.footer .footer-con .footer-top-left .free {
+  margin-right: 15px;
+  background: #fff;
+}
+.footer .footer-con .footer-top-left .free a {
+  color: #000;
+  background: #fff;
+}
+.footer .footer-con .footer-top-left .free:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: url("../images/bg-delivery.png");
+}
+.footer .footer-con .footer-top-left .find-us {
+  margin-left: 15px;
+}
+.footer .footer-con .footer-top-left .find-us a {
+  background: #000;
+  color: #fff;
+}
+.footer .footer-con .sub {
+  width: 100%;
+  padding: 30px 0;
+  background: #ffcd00;
+  margin-top: 30px;
+  text-align: center;
+  float: right;
+  position: relative;
+}
+.footer .footer-con .sub div {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.footer .footer-con .sub label {
+  float: left;
+  font-size: 20px;
+  margin-top: 4px;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  line-height: 18px;
+  margin-bottom: 20px;
+}
+.footer .footer-con .sub .form-input {
+  position: relative;
+}
+.footer .footer-con .sub .sub-content {
+  width: 428px;
+  display: inline-block;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: -11px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #000;
+}
+.footer .footer-con .sub .sub-content input {
+  width: 100%;
+  background: #ffcd00;
+  border: 0!important;
+  font-size: 15px;
+  color: #000;
+  padding-left: 0;
+  height: 44px;
+}
+.footer .footer-con .sub .sub-btn {
+  float: right;
+  position: relative;
+}
+.footer .footer-con .sub .sub-btn .btn {
+  min-width: 308px;
+  overflow: hidden;
+  text-align: center;
+  white-space: normal;
+  vertical-align: middle;
+  padding: 0 20px;
+  border-radius: 0;
+  height: 50px;
+  line-height: 48px;
+  font-size: 15px;
+}
+.footer .footer-con .sub .sub-btn .btn-sit-black {
+  width: 370px;
+  color: #fff;
+  letter-spacing: 0;
+  background: black;
+  border: 1px solid black;
+  margin-right: -15px;
+}
+.footer .footer-bottom {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+.footer .footer-bottom .footer-con {
+  padding: 32px 15px 29px;
+}
+.footer .footer-bottom .footer-help {
+  margin-bottom: 35px;
+}
+.footer .footer-bottom .footer-help li {
+  float: left;
+  margin-right: 40px;
+}
+.footer .footer-bottom .footer-help li a {
+  color: black;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 18px;
+  font-weight: 500;
+}
+.footer .footer-bottom .footer-help li a:hover {
+  text-decoration: none;
+}
+.footer .footer-bottom .footer-help .btn {
+  border: 1px solid #000;
+  color: #000;
+  overflow: hidden;
+  text-align: center;
+  white-space: normal;
+  vertical-align: middle;
+  padding: 0 20px;
+  border-radius: 0;
+  min-width: 240px;
+  height: 50px;
+  line-height: 48px;
+  font-size: 15px;
+}
+.footer .footer-bottom .footer-help .btn-white-sec {
+  letter-spacing: 0;
+  background: 0 0;
+}
+.footer .footer-bottom .footer-right {
+  width: 308px;
+  float: right;
+  margin-top: -100px;
+}
+.footer .footer-bottom .footer-right div {
+  padding: 0px!important;
+}
+.footer .footer-bottom .footer-right .footer-fllow {
+  margin-top: 14px;
+  text-align: right;
+  width: 100%;
+}
+.footer .footer-bottom .footer-right .footer-fllow li {
+  margin-left: 40px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.footer .footer-bottom .footer-right .footer-fllow li a:hover {
+  text-decoration: none;
+}
+.footer .footer-bottom .footer-right .footer-fllow li:first-child {
+  margin-left: 0;
+  position: relative;
+  margin-right: 0px;
+}
+.footer .footer-bottom .footer-right .footer-fllow li:first-child .wxerm {
+  position: absolute;
+  left: -51px;
+  bottom: 28px;
+  z-index: 3;
+  padding-bottom: 14px;
+}
+.footer .footer-bottom .footer-right .footer-fllow li:first-child .wxerm img {
+  width: 126px;
+}
+.footer .footer-bottom .footer-right .footer-fllow li a:hover {
+  text-decoration: none;
+}
+.footer .footer-bottom .footer-right .footer-fllow li span {
+  font-size: 20px;
+}
+.footer .footer-bottom .btn1 {
+  border: 1px solid #000;
+  color: #000;
+  overflow: hidden;
+  text-align: center;
+  white-space: normal;
+  vertical-align: middle;
+  padding: 0 20px;
+  border-radius: 0;
+  min-width: 290px;
+  height: 50px;
+  line-height: 48px;
+  font-size: 15px;
+  background-color: white;
+}
+.footer .footer-bottom .btn1 i {
+  background: url("../images/icon.png") no-repeat -230px -130px;
+  width: 38px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  margin-top: 15px;
+}
+.footer .footer-bottom .btn1 .country {
+  float: left;
+}
+.footer .footer-bottom .dropdown-menu li span {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+.footer .footer-bottom .dropdown-menu li:first-child {
+  background: url("../images/icon.png") no-repeat -230px -130px;
+  width: 38px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer .footer-bottom .dropdown-menu li:last-child {
+  background: url("../images/icon.png") no-repeat -230px -156px;
+  width: 38px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer .footer-bottom .footer-copy {
+  float: left;
+  padding: 0px;
+}
+.footer .footer-bottom .footer-copy .footer-statement {
+  float: right;
+  padding: 0px;
+}
+.footer .footer-bottom .footer-copy .footer-statement li {
+  margin-right: 29px;
+  float: left;
+  line-height: 20px;
+}
+.footer .footer-bottom .footer-copy .footer-statement li a {
+  display: block;
+  line-height: 20px;
+  font-size: 15px;
+}
+.footer .footer-bottom .footer-copy .footer-statement li a:hover {
+  text-decoration: none;
+}
+.footer .footer-bottom .footer-copy .footer-statement li a i {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.footer .footer-bottom .footer-copy .footer-statement li a i.icon1 {
+  background: url("../images/icon.png") no-repeat -230px -235px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer .footer-bottom .footer-copy .footer-statement li a i.icon2 {
+  background: url("../images/icon.png") no-repeat -210px -235px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer .footer-bottom .footer-copy .footer-icp {
+  float: left;
+  line-height: 20px;
+  margin-right: 40px;
+  padding: 0px;
+}
+.footer .footer-bottom .footer-copy .footer-icp i {
+  color: #000;
+  margin-right: 50px;
+}
+.footer .footer-bottom .footer-copy .footer-icp i.icon3 {
+  background: url("../images/icon.png") no-repeat -136px -235px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer .back-top {
+  position: fixed;
+  bottom: 170px;
+  right: 20px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 8;
+}
+.footer .back-top {
+  position: fixed;
+  bottom: 170px;
+  right: 20px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 8;
+}
+.footer .back-top .icon4 {
+  background: url("../images/icon.png") no-repeat -111px -43px;
+  width: 60px;
+  height: 53px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.none {
+  display: none;
+  visibility: hidden;
+}

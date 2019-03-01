@@ -1,0 +1,135 @@
+.footer_icon {
+  color: #000 !important;
+  background-color: #fff;
+}
+.footer_icon .footer_icon_top {
+  padding-top: 5rem;
+  perspective: 1000px;
+}
+.footer_icon .footer_icon_top .footer_icon_top_one {
+  height: 120px;
+  background-color: #fff;
+  border: 1px solid black;
+  transition: transform 2s;
+}
+.footer_icon .footer_icon_top .footer_icon_top_one :before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  transform: scaleX(-1);
+  background: url("../images/footer1.png");
+}
+.footer_icon .footer_icon_top .footer_icon_top_one:hover {
+  transform: translateZ(100px);
+}
+.footer_icon .footer_icon_top .footer_icon_top_one:hover :before {
+  background: #000;
+}
+.footer_icon .footer_icon_top .footer_icon_top_one .footer_h5 {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 21px;
+  margin-top: 40px;
+  font-weight: 700;
+}
+.footer_icon .footer_icon_top .footer_icon_top_one .footer_p {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 18px;
+}
+.footer_icon .footer_icon_top .footer_icon_top_one .footer_span {
+  color: #000;
+}
+.footer_icon .footer_icon_top .footer_icon_top_two {
+  height: 120px;
+  border: 1px solid black;
+  background-color: #000;
+  transition: transform 2s;
+}
+.footer_icon .footer_icon_top .footer_icon_top_two :before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  transform: scaleX(-1);
+  background-color: #fff;
+}
+.footer_icon .footer_icon_top .footer_icon_top_two:hover {
+  transform: translateZ(100px);
+}
+.footer_icon .footer_icon_top .footer_icon_top_two:hover :before {
+  background: yellow;
+}
+.footer_icon .footer_icon_top .footer_icon_top_two .footer_h5_two {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 21px;
+  margin-top: 60px;
+  font-weight: 700;
+  color: white;
+}
+.footer_icon .footer_icon_bottom {
+  margin-top: 14rem;
+  width: 100%;
+  height: 10rem;
+}
+.footer_icon .footer_icon_bottom .control-label {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  line-height: 18px;
+  display: inline-block;
+  margin-top: 4rem;
+}
+.footer_icon .footer_icon_bottom .form-input .subscribe-content {
+  width: 450px;
+  display: inline-block;
+  border-bottom: 1px solid black;
+  text-align: left;
+  margin-left: 16px;
+  margin-top: -11px;
+  padding-bottom: 18px;
+}
+.footer_icon .footer_icon_bottom .form-input .subscribe-content .footer_icon_bottom_input {
+  width: 100%;
+  background: 0 0;
+  font-size: 20px;
+  letter-spacing: 0.54px;
+  padding-left: 0;
+  padding-bottom: 1rem;
+  display: inline-block;
+  margin-top: 4rem;
+}
+.footer_icon .footer_icon_bottom .subscribe-btn {
+  width: 440px;
+  height: 60px;
+  background-color: #000;
+  color: #fff;
+  padding: 0;
+  margin-top: 4rem;
+}
+.footer_icon .footer_icon_bottom .subscribe-btn .subscribe-btn_a {
+  width: 100%;
+  height: 100%;
+}
+.footer_icon .footer_icon_bottom .subscribe-btn .subscribe-btn_a .subscribe-btn_a_span {
+  color: #fff;
+  display: inline-block;
+  margin-top: 0.8rem;
+}
+.footer_icon .footer_icon_bottom .subscribe-btn .subscribe-btn_a:hover {
+  background-color: #ffcd00;
+}
+.footer_icon .footer_icon_bottom .subscribe-btn .subscribe-btn_a:hover .subscribe-btn_a_span {
+  color: #000;
+}
+/*让子元素以3d效果程序*/

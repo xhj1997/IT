@@ -1,0 +1,11 @@
+.myvideo {
+  width: 100%;
+  background: #000;
+}
+.myvideo .video_contain {
+  width: 60%;
+  margin: 0 auto;
+}
+.myvideo .video_contain video {
+  width: 100%;
+}

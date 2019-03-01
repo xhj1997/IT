@@ -1,0 +1,21 @@
+.bigimg {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+}
+.bigimg .big {
+  width: 100%;
+  height: 100%;
+}
+.bigimg .big img {
+  width: 100%;
+  height: 100%;
+}
+.bigimg .small {
+  width: 100%;
+  height: 100%;
+}
+.bigimg .small img {
+  width: 100%;
+  height: 100%;
+}

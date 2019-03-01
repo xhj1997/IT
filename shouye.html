@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <!--指定IE浏览器的渲染模式-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>it</title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet/less" href="less1/main.less">
+    <script src="js/less.js"></script>
+
+
+    <!--[if lt IE 9]>
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <script src="lib/respond/respond.js"></script>
+    <![endif]-->
+    <!--<style>-->
+        <!--header{-->
+            <!--width: 100%;-->
+            <!--height: 50px;-->
+            <!--background: black;-->
+        <!--}-->
+    <!--</style>-->
+</head>
+<body>
+<div id="wrapper">
+    <!-- 内容部分 -->
+
+    <section class="content">
+        <article>
+            <div class="box">
+                <div class="pic">
+
+                </div>
+                <div class="pictext">
+
+                </div>
+            </div>
+
+        </article>
+    </section>
+</div>
+</body>
+<script src="lib/jquery/jquery-1.9.1.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/template-web.js"></script>
+<script type="text/html" id="picinner">
+    {{each list value i}}
+    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 item">
+        {{if isMobile}}
+        <img src="{{value.mUrl}}" alt="...">
+        {{else}}
+        <a href="men1.html" style="background-image: url({{value.pcUrl}})"></a>
+        {{/if}}
+    </div>
+    {{/each}}
+</script>
+<script type="text/html" id="piccover">
+    {{each list as value i}}
+    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 contbox">
+        <div class="cont">
+        <img src="{{value.img}}" alt="">
+        <p>{{value.p1}}</p>
+        <p>{{value.p2}}</p>
+        <p>{{value.p3}}</p>
+        <p>{{value.p4}}</p>
+        <p>{{value.p5}}</p>
+        <p>{{value.p6}}</p>
+        <div class="btn-cat">
+            <a href="men1.html" class="btn btn-white-sec"><i class=""></i><span>{{value.span1}}</span></a>
+            <a href="I.T-demo.html" class="btn btn-white-sec"><i class=""></i><span>{{value.span2}}</span></a>
+        </div>
+    </div>
+    </div>
+    {{/each}}
+</script>
+<script>
+    //1.数据源
+    var data = [
+        {
+            "pcUrl":"images/shouye1big.jpg",
+            "mUrl":"images/shouye1sm.jpg"
+        },
+        {
+            "pcUrl":"images/shouye2big.jpg",
+            "mUrl":"images/shouye2sm.jpg"
+        },
+        {
+            "img":"images/bit-hover@2x.png",
+            "p1" :"时尚灵感集结",
+            "p2" :"ACNE STUDIOS",
+            "p3" :"ALEXANDER MCQUEEN",
+            "p4" :"COMME des GARÇONS",
+            "p5" :"JUNYA WATANABE",
+            "p6" :"OFF-WHITE c/o VIRGIL ABLOH™",
+            "span1":"男装",
+            "span2":"女装"
+        },
+        {
+            "img":"images/sit-hover@2x.png",
+            "p1" :"街头潮流之选",
+            "p2" :"AAPE",
+            "p3" :"FRED PERRY",
+            "p4" :"IZZUE",
+            "p5" :"STYLENANDA",
+            "span1":"男装",
+            "span2":"女装"
+        }
+    ];
+
+    //3.当屏幕大小发生变化的时候
+    var width = 0;
+    var isMobile = false;
+    window.onresize = function(){
+        width1 = document.body.clientWidth||document.documentElement.clientWidth;
+        height1=document.body.clientHeight||document.documentElement.clientHeight;
+        if (width1 < 768){
+            isMobile = true;
+        }
+        else{
+            isMobile = false;
+        }
+        console.log(isMobile);
+        render();
+        console.log(width1);
+        console.log(height1);
+        var h1="";
+        h1=height1+"px";
+        var height2=height1/2;
+        var h2=height2+"px";
+        console.log(h1);
+
+        var w1="";
+        w1=width1+"px";
+        var width2=width1/2;
+        var w2=width2+"px";
+        console.log(w1);
+//        pc端
+        $(".item a").css({
+            "display":"block",
+            "width":w2,
+            "height":h1,
+            "overflow":"hidden"
+        })
+//        移动端
+        $(".item img").css({
+            "width":w1,
+            "height":h2,
+            "overflow":"hidden"
+
+        })
+    }
+    window.onresize();
+
+    //渲染页面的方法
+    function render(){
+        //1.渲染图片的数据
+        var html = template("picinner",{list:data,isMobile:isMobile});
+        document.querySelector(".pic").innerHTML = html;
+        var html2=template("piccover",{list:data,isMobile:isMobile});
+        document.querySelector(".pictext").innerHTML = html2;
+    }
+
+
+</script>
+
+
+
+
+</html>

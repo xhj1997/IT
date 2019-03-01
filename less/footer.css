@@ -1,0 +1,61 @@
+@charset "utf-8";
+.footer {
+  position: relative;
+  background-color: #0f0f0f;
+  color: white;
+  bottom: 0rem;
+}
+.footer .col1 {
+  position: relative;
+  height: 5rem;
+  margin-top: 2rem;
+}
+.footer .china1 {
+  position: absolute;
+  width: 25rem;
+  height: 4rem;
+  top: 1rem;
+  right: 10rem;
+  background-color: white;
+}
+.footer .china1 .tu1 {
+  position: absolute;
+  background-image: url("../images/icon.png");
+  background-position: 100% 55%;
+  width: 4rem;
+  height: 2rem;
+  top: 1rem;
+  background-repeat: no-repeat;
+}
+.footer .china1 span {
+  position: absolute;
+  right: 2rem;
+  color: black;
+  line-height: 4rem;
+}
+.footer .china2 {
+  position: relative;
+  width: 100%;
+  margin-top: 5rem;
+  height: 4rem;
+  background-color: white;
+}
+.footer .china2 .tu2 {
+  position: absolute;
+  background-image: url("../images/icon.png");
+  background-position: 100% 55%;
+  width: 4rem;
+  height: 2rem;
+  top: 1rem;
+  background-repeat: no-repeat;
+}
+.footer .china2 span {
+  position: absolute;
+  right: 2rem;
+  color: black;
+  line-height: 4rem;
+}
+.footer .china2 .col2 {
+  position: relative;
+  height: 5rem;
+}

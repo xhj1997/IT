@@ -1,0 +1,183 @@
+.header-sit {
+  height: 60px;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  min-width: 338px;
+  .header-container {
+    padding: 0 20px;
+    margin: 0 auto;
+    height: 100%;
+    .nav-container {
+      top: 3px;
+      float: left;
+      .nav-pills {
+        li {
+          a {
+            position: relative;
+            font-size: 10px;
+            padding: 5px 18px;
+            display: block;
+            font-weight: bold;
+            line-height: 60px;
+            &:hover {
+              background-color: #fff;
+              text-decoration: none;
+              color: black;
+            }
+          }
+          .sub-menu{
+            display: none;
+            position: absolute;
+            z-index: 999;
+            width: 1400px;
+              border: 0;
+              border-bottom: 1px solid #000;
+              background-color: #fff;
+              left: 0;
+              border-radius: 0;
+              ul {
+                li{
+                  float: left;
+                  display: inline-block;
+                  text-align: left;
+                  width: 30%;
+                  margin-right: -250px;
+                  vertical-align: top;
+                  margin-bottom: 20px;
+                  &:first-of-type{
+                    margin-top: -12px;
+                    margin-left:28px;
+                  }
+                  a{
+                    padding: 0;
+                    font-size: 18px;
+                    color: #000;
+                    letter-spacing: .5px;
+                    text-align: left;
+                    line-height: 18px;
+                    margin-bottom: 12px;
+                  }
+                  .sub-menu3{
+                    border: 0;
+                    padding: 0;
+                    display: block;
+                    position: relative;
+                    margin-top: 20px;
+                    margin-left:-50px;
+                    ul{
+                      li{
+                        &:first-child{
+                          padding-left: 10px;
+                        }
+                      }
+                    }
+
+                    a{
+                      padding: 0;
+                      margin-bottom: 8px;
+                      display: block;
+                      width: 100%;
+                      span{
+                        font-size: 14px;
+                        color: #000;
+                        letter-spacing: .5px;
+                        line-height: 1px;
+                        display: block;
+                        //margin-bottom: -25px;
+                        font-weight: normal;
+                      }
+                    }
+                  }
+                }
+              }
+
+            }
+            text-decoration: none;
+
+        }
+      }
+      ul{
+        &:last-child{
+          .formtable{
+            display: none;
+          }
+          span{
+            font-size: 20px;
+            padding: 20px 15px 9px;
+            display: inline-block;
+          }
+          a{
+            &:hover{
+              .formtable{
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .logo {
+    width: 28px;
+    position: absolute;
+    left: 50%;
+    margin-left: -14px;
+    top: 16px;
+    i {
+      font-size: 28px;
+      color: #000;
+      line-height: 28px;
+      font-style: normal;
+      overflow: hidden;
+      display: inline-block;
+      font-family: "微软雅黑";
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+  .right {
+    float: right;
+    position: relative;
+    li {
+      display: inline-block;
+      padding-right: 10px;
+      vertical-align: top;
+      &.search-box {
+        a {
+          padding: 20px 15px 9px;
+          display: block;
+          font-size: 20px;
+          vertical-align: middle;
+        }
+      }
+      &.site {
+        a {
+          padding: 20px 15px 9px;
+          display: block;
+          font-size: 20px;
+        }
+      }
+      &.account {
+        a {
+          padding: 20px 15px 9px;
+          display: block;
+          font-size: 20px;
+        }
+      }
+      &.header-shopping-bag {
+        a {
+          padding: 20px 15px 9px;
+          display: block;
+          font-size: 20px;
+        }
+      }
+      a:hover{
+        text-decoration: none;
+        color:#ffcd00;
+      }
+    }
+
+  }
+}

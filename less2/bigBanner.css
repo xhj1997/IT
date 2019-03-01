@@ -1,0 +1,51 @@
+.bigBanner {
+  width: 100%;
+  border: 1px solid black;
+  background: url("../images/bigbanner.jpg");
+  height: 6.6rem;
+  background-position: center center;
+  background-size: cover;
+}
+.bigBanner img {
+  margin: auto;
+  margin-top: 2rem;
+  width: 3rem;
+  height: 1.5rem;
+}
+.bigBanner span {
+  display: inline-block;
+  color: white;
+  font-size: 0.32rem;
+  line-height: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+.bigBanner button {
+  display: block;
+  width: 2.4rem;
+  height: 0.5rem;
+  border-radius: 0.05rem;
+  margin: auto;
+  margin-top: 0.4rem;
+  background: rgba(0, 0, 0, 0);
+}
+.bigBanner button span:first-of-type {
+  float: right;
+  font-size: 0.2rem;
+  text-align: left;
+  width: 0.4rem;
+  height: 0.45rem;
+}
+.bigBanner button span:nth-of-type(2) {
+  font-size: 0.16rem;
+  text-align: center;
+  width: 1.6rem;
+  height: 0.45rem;
+  line-height: 0.4rem;
+}
+.bigBanner button span:nth-of-type(2) a {
+  color: white;
+}
+.bigBanner button:hover {
+  background: black;
+}

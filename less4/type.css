@@ -1,0 +1,44 @@
+.container_type {
+  width: 100%;
+  background: #000;
+}
+.container_type .type_ul .nvzhuang .anvzhuang {
+  color: white;
+}
+.container_type .tab-content {
+  width: 100%;
+  border: 1px solid black;
+}
+.container_type .tab-content .tab-pane {
+  width: 90%;
+  margin: 0 auto;
+}
+.container_type .tab-content .tab-pane .container-main_male .display_sth {
+  margin-top: 2rem;
+}
+.container_type .tab-content .tab-pane .container-main_male .display_sth img {
+  width: 100%;
+}
+.container_type .tab-content .tab-pane .container-main_male .display_sth p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.25;
+}
+.container_type .tab-content .tab-pane .container-main_male .display_sth:hover {
+  box-shadow: 5px 5px 3px 5px #FFF0F5, -5px -5px 3px 5px #FFF0F5;
+  transition: all 0.5s ease 0.2s;
+}
+.container_type .tab-content .tab-pane .container-main_female .display_sth img {
+  width: 100%;
+}
+.container_type .tab-content .tab-pane .container-main_female .display_sth p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+  text-align: left;
+  line-height: 1.25;
+}

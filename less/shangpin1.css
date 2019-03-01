@@ -1,0 +1,27 @@
+@charset "utf-8";
+.things1 .row .thumbnail {
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+}
+.things1 .row .thumbnail:hover {
+  box-shadow: 5px 10px 10px gray;
+  border: 1px solid black;
+}
+.things1 .goumai {
+  border: 1px solid black;
+  width: 20rem;
+  height: 4rem;
+  margin: 0 auto;
+  line-height: 4rem;
+}
+.things1 .goumai:hover {
+  background-color: black;
+  -moz-transition: all 1s ease 0s;
+  -webkit-transition: all 1s ease 0s;
+  transition: all 1s ease 0s;
+  -o-transition: all 1s ease 0s;
+}
+.things1 .goumai:hover a {
+  color: white;
+}

@@ -1,0 +1,99 @@
+.btn-group-box {
+  width: 100%;
+  padding-left: 36px;
+  box-sizing: border-box;
+}
+.btn-group-box ul {
+  width: 100%;
+}
+.btn-group-box ul .row {
+  width: 100%;
+}
+.btn-group-box ul .row div {
+  width: 170px;
+  height: 50px;
+  border: 1px solid black;
+  margin: 20px 15px;
+  font-size: 14px;
+}
+.btn-group-box ul .row div span {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  line-height: 50px;
+}
+.btn-group-box ul .row div:hover {
+  background-color: yellow;
+}
+.btn-group-box ul .row:first-of-type {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.btn-group-box ul .row:nth-of-type(2) {
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.btn-group-box {
+  margin: 0 auto;
+}
+.btn-group-box .row1 div:hover {
+  background-color: yellow;
+}
+.btn-group-box .row1 div {
+  width: 45%;
+  margin: 1% 1%;
+  height: 50px;
+  border: 1px solid black;
+}
+.btn-group-box .row1 div a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.btn-group-box .row1 div a span {
+  display: inline-block;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .btn-group-box {
+    width: 100%;
+    padding-left: 36px;
+    box-sizing: border-box;
+  }
+  .btn-group-box ul {
+    width: 100%;
+  }
+  .btn-group-box ul .row1 {
+    width: 100%;
+  }
+  .btn-group-box ul .row1 div {
+    width: 170px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 20px 15px;
+    font-size: 14px;
+  }
+  .btn-group-box ul .row1 div span {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    line-height: 50px;
+  }
+  .btn-group-box ul .row1 div:hover {
+    background-color: yellow;
+  }
+  .btn-group-box ul .row1:first-of-type {
+    box-sizing: border-box;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .btn-group-box ul .row1:nth-of-type(2) {
+    box-sizing: border-box;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

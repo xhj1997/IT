@@ -1,0 +1,103 @@
+.tuji{
+  height: 100%;
+  margin-left: 0.8rem;
+  overflow: hidden;
+  h1{
+    font-weight: bolder;
+    text-align: center;
+  }
+  .newProducts{
+    margin: auto;
+    overflow: hidden;
+    ul{
+      width: 1170px!important;
+      height: 100%;
+      margin-bottom: 30px;
+      overflow: hidden;
+      li{
+        width: 250px;
+        height: 365px;
+        display: inline-block;
+        position: relative;
+        top: 0;
+        margin: 20px 15px;
+        z-index: 999;
+        .carval{
+          background-color: #fff;
+          padding: 3px 11px 11px;
+          width: 100%;
+          border: 1px solid #000;
+          //background: #fff;
+          text-align: left;
+          a{
+            display: inline-block;
+            width: 200px;
+            height: 240px;
+            margin: 0 20px;
+            margin-bottom: 20px;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .bold{
+            font-weight: bold;
+          }
+
+        }
+      }
+      li:hover::after{
+        content: "";
+        display: inline-block;
+        width: 100%;
+        height: 362px;
+        position: absolute;
+        left: 10px;
+        top: -10px;
+        z-index: -1;
+        border: 1px solid black;
+      }
+    }
+    .btncat{
+      border: 1px solid black;
+      box-shadow: 3px 3px 0 #3253d1;
+      span:first-of-type{
+        padding-left: 20px;
+        font-size: 16px;
+        line-height: 0.5rem;
+        font-weight: bold;
+        color: black;
+      }
+      span:nth-of-type(2){
+        float: right;
+        line-height: 0.5rem;
+        padding-right: 30px;
+        font-size: 18px;
+        color: black;
+      }
+    }
+    .btncat:hover{
+      background-color: #3253d1;
+      box-shadow: 3px 3px 0 black;
+
+    }
+  }
+}
+@media screen and (min-width: 992px){
+  .newProducts .btncat {
+    width: 3.7rem;
+    height: 50px;
+    margin: 0 4rem;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0 #3253d1;
+  }
+}
+@media screen and (max-width: 992px){
+  .newProducts .btncat {
+    height: 50px;
+    width: 6rem;
+    //margin: 0 1rem;
+    border: 1px solid black;
+    box-shadow: 3px 3px 0 #3253d1;
+  }
+}

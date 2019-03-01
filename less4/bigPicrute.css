@@ -1,0 +1,13 @@
+.bigpicture {
+  width: 100%;
+  display: block;
+  height: 32rem;
+  background-color: #000;
+}
+.bigpicture .bigpicture_a {
+  display: block;
+  width: 100%;
+}
+.bigpicture .bigpicture_a img {
+  width: 100%;
+}

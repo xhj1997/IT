@@ -1,0 +1,32 @@
+.article-cont{
+  ul{
+    position:relative;
+    li{
+      width:50%;
+      display: inline-block;
+      &:nth-child(1){
+        padding-right: 15px;
+      }
+      &:nth-child(2){
+        padding-left: 15px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(0,-50%);
+      }
+      .img-box{
+        width: 100%;
+        overflow: hidden;
+        max-width: 100%;
+        position: relative;
+        display: block;
+      }
+    }
+  }
+  img{
+    width: 100%;
+    display: block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+}

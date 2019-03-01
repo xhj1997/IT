@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+@bgfontcolor:black;
+@bgwidth:100%;
+
+.bigpic{
+  position: relative;
+  .picture{
+    position: absolute;
+    top:15rem;
+    left: 42rem;
+    -webkit-animation-name: fadeIn; /*动画名称*/
+    -webkit-animation-duration: 2s; /*动画持续时间*/
+    -webkit-animation-iteration-count: 1; /*动画次数*/
+    -webkit-animation-delay: 0s; /*延迟时间*/
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .container1 .wenzi{
+    position: absolute;
+    top:30rem;
+    left:35rem;
+    font-size: 3rem;
+    color: white;
+    -webkit-animation-name: fadeIn; /*动画名称*/
+    -webkit-animation-duration: 2s; /*动画持续时间*/
+    -webkit-animation-iteration-count: 1; /*动画次数*/
+    -webkit-animation-delay: 0s; /*延迟时间*/
+  }
+  .container1 .more{
+    position: absolute;
+    top:45rem;
+    left:45rem;
+    width:20rem;
+    height:4rem;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    color: white;
+    margin: 0 auto;
+    border:1px solid white;
+    -webkit-animation-name: fadeIn; /*动画名称*/
+    -webkit-animation-duration: 2s; /*动画持续时间*/
+    -webkit-animation-iteration-count: 1; /*动画次数*/
+    -webkit-animation-delay: 0s; /*延迟时间*/
+  }
+  .container1 .more:hover{
+    background: #0f0f0f;
+    -moz-transition: all 1s ease 0s;
+    -webkit-transition:all 1s ease 0s;
+    transition:all 1s ease 0s;
+    -o-transition:all 1s ease 0s;
+  }
+  .container2{
+    .picture{
+      position: absolute;
+      top:10rem;
+      left: 25rem;
+    }
+    .wenzi{
+      position: absolute;
+      top:15rem;
+      left:15rem;
+      font-size: 2rem;
+      color: white;
+    }
+    .more{
+      position: absolute;
+      top:23rem;
+      left:20rem;
+      width:15rem;
+      height:3rem;
+      line-height: 3rem;
+      font-size: 1.5rem;
+      color: white;
+      margin: 0 auto;
+      border:1px solid white;
+    }
+    .more:hover{
+      background: #0f0f0f;
+      -moz-transition: all 1s ease 0s;
+      -webkit-transition:all 1s ease 0s;
+      transition:all 1s ease 0s;
+      -o-transition:all 1s ease 0s;
+    }
+  }
+}
+
+

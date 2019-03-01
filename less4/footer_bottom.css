@@ -1,0 +1,41 @@
+.footer-bottom {
+  margin-top: 5rem;
+  background-color: #ffcd00;
+}
+.footer-bottom .footer-con .footer-help li {
+  float: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.footer-bottom .footer-con .footer-help li .btn-white-sec {
+  display: block;
+  width: 100%;
+  border: 1px solid black;
+}
+.footer-bottom .footer-con .footer_dropdown {
+  width: 100%;
+  border: 1px solid black;
+  background-color: #fff;
+}
+.footer-bottom .footer-con .footer_dropdown .btn-default {
+  width: 20%;
+}
+.footer-bottom .footer-con .footer_dropdown .dropdown-menu {
+  width: 100%;
+  border: 1px solid black;
+}
+.footer-bottom .footer-statement-content .footer-statement .float-clearfix li {
+  float: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.footer-bottom .footer-icp {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.footer-bottom .footer-icp .icon-Logo_SIT_Black {
+  width: 40px ;
+  height: 40px;
+  background: url("../images/icon@2x.png");
+  background-position: 35% 100%;
+}

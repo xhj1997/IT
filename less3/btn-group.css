@@ -1,0 +1,76 @@
+.btn-group {
+  padding: 10px 0;
+}
+.btn-group.part-width {
+  max-width: 1170px;
+  margin: 0 auto;
+  padiing-bottom: 25px;
+}
+.btn-group.part {
+  display: block;
+}
+.btn-group .btn-group-box ul {
+  list-style: none;
+}
+.btn-group .btn-group-box ul li {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.btn-group .btn-group-box ul li:first-child {
+  max-width: 600px;
+}
+.btn-group .btn-group-box ul li.row,
+.btn-group .btn-group-box ul li [class*=col-] {
+  font-size: 0;
+  position: relative;
+}
+.btn-group .btn-group-box ul li [class*=col-] {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: top;
+  font-size: 14px;
+}
+.btn-group .btn-group-box ul li .btn-box {
+  padding: 15px 0;
+  text-align: center;
+}
+.btn-group .btn-group-box ul li a {
+  display: inline-block;
+  margin: 0 15px;
+  min-width: 170px;
+  font-weight: 700;
+}
+.btn-group .btn-group-box ul li a:hover {
+  background: #ffcd00 !important;
+}
+.btn-group .btn-group-box ul li a.btn-site-link {
+  width: 160px;
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+.btn-group .btn-group-box ul li a.btn-site {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0 20px;
+  font-size: 16px;
+  height: 48px;
+}
+.btn-group .btn-group-box ul li a.btn-site span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 20px;
+  font-size: 14px;
+}

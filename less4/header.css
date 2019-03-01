@@ -1,0 +1,154 @@
+.header-sit {
+  height: 60px;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  min-width: 338px;
+}
+.header-sit .header-container {
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 100%;
+}
+.header-sit .header-container .nav-container {
+  top: 3px;
+  float: left;
+}
+.header-sit .header-container .nav-container .nav-pills li {
+  text-decoration: none;
+}
+.header-sit .header-container .nav-container .nav-pills li a {
+  position: relative;
+  font-size: 10px;
+  padding: 5px 18px;
+  display: block;
+  font-weight: bold;
+  line-height: 60px;
+}
+.header-sit .header-container .nav-container .nav-pills li a:hover {
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+}
+.header-sit .header-container .nav-container .nav-pills li .sub-menu {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  width: 1400px;
+  border: 0;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  left: 0;
+  border-radius: 0;
+}
+.header-sit .header-container .nav-container .nav-pills li .sub-menu ul li {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  width: 30%;
+  margin-right: -250px;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+.header-sit .header-container .nav-container .nav-pills li .sub-menu ul li:first-of-type {
+  margin-top: -12px;
+  margin-left: 28px;
+}
+.header-sit .header-container .nav-container .nav-pills li .sub-menu ul li a {
+  padding: 0;
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 0.5px;
+  text-align: left;
+  line-height: 18px;
+  margin-bottom: 12px;
+}
+.header-sit .header-container .nav-container .nav-pills li .sub-menu ul li .sub-menu3 {
+  border: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+  margin-top: 20px;
+  margin-left: -50px;
+}
+.header-sit .header-container .nav-container .nav-pills li .sub-menu ul li .sub-menu3 ul li:first-child {
+  padding-left: 10px;
+}
+.header-sit .header-container .nav-container .nav-pills li .sub-menu ul li .sub-menu3 a {
+  padding: 0;
+  margin-bottom: 8px;
+  display: block;
+  width: 100%;
+}
+.header-sit .header-container .nav-container .nav-pills li .sub-menu ul li .sub-menu3 a span {
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0.5px;
+  line-height: 1px;
+  display: block;
+  font-weight: normal;
+}
+.header-sit .header-container .nav-container ul:last-child .formtable {
+  display: none;
+}
+.header-sit .header-container .nav-container ul:last-child span {
+  font-size: 20px;
+  padding: 20px 15px 9px;
+  display: inline-block;
+}
+.header-sit .header-container .nav-container ul:last-child a:hover .formtable {
+  display: block;
+}
+.header-sit .logo {
+  width: 28px;
+  position: absolute;
+  left: 50%;
+  margin-left: -14px;
+  top: 16px;
+}
+.header-sit .logo i {
+  font-size: 28px;
+  color: #000;
+  line-height: 28px;
+  font-style: normal;
+  overflow: hidden;
+  display: inline-block;
+  font-family: "微软雅黑";
+  font-weight: 500;
+  cursor: pointer;
+}
+.header-sit .right {
+  float: right;
+  position: relative;
+}
+.header-sit .right li {
+  display: inline-block;
+  padding-right: 10px;
+  vertical-align: top;
+}
+.header-sit .right li.search-box a {
+  padding: 20px 15px 9px;
+  display: block;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.header-sit .right li.site a {
+  padding: 20px 15px 9px;
+  display: block;
+  font-size: 20px;
+}
+.header-sit .right li.account a {
+  padding: 20px 15px 9px;
+  display: block;
+  font-size: 20px;
+}
+.header-sit .right li.header-shopping-bag a {
+  padding: 20px 15px 9px;
+  display: block;
+  font-size: 20px;
+}
+.header-sit .right li a:hover {
+  text-decoration: none;
+  color: #ffcd00;
+}

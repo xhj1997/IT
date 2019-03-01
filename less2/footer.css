@@ -1,0 +1,253 @@
+.footer {
+  margin-top: 50px;
+}
+.footer .footertop {
+  margin-bottom: 20px ;
+}
+.footer .footertop .first .shang {
+  height: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background: url(../images/bg-delivery.png);
+}
+.footer .footertop .first:hover .shang {
+  background-color: black;
+}
+.footer .footertop .first .xia {
+  height: 90px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.footer .footertop .first .xia h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer .footertop .first .xia span {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  font-size: 24px;
+  margin-top: 70px;
+}
+.footer .footertop .sec .shang {
+  height: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  background: white;
+}
+.footer .footertop .sec:hover .shang {
+  background-color: yellow;
+}
+.footer .footertop .sec .xia {
+  height: 90px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-top: 10px;
+  background-color: black;
+}
+.footer .footertop .sec .xia h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+.footer .footertop .sec .xia span {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  color: white;
+  font-size: 24px;
+  margin-top: 70px;
+}
+.footer .next {
+  background: #ffcd00;
+}
+.footer .next .footermiddle {
+  padding: 20px 0;
+}
+.footer .next .footermiddle div {
+  margin: 20px 0;
+}
+.footer .next .footermiddle .control-label {
+  font-size: 20px;
+  padding: 0 15px;
+  font-weight: bolder;
+}
+.footer .next .footermiddle input {
+  font-size: 15px;
+  height: 52px;
+  color: black;
+  display: inline-block;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid black;
+}
+.footer .next .footermiddle input::-webkit-input-placeholder {
+  /* placeholder颜色  */
+  color: black;
+}
+.footer .next .footermiddle .dingyue {
+  display: inline-block;
+  border: 1px solid black;
+  width: 100%;
+  background-color: black;
+}
+.footer .next .footermiddle .dingyue span {
+  display: inline-block;
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+}
+.footer .next .footermiddle .dingyue:hover {
+  background-color: yellow;
+}
+.footer .next .footermiddle .dingyue:hover span {
+  color: black;
+}
+.footer .next .footermain {
+  margin-top: 30px;
+  font-size: 12px;
+}
+.footer .next .footermain div {
+  margin: 10px 0 ;
+}
+.footer .next .footermain .lianxi {
+  margin-top: 10px;
+  display: inline-block;
+  width: 100%;
+  border: 1px solid black;
+  height: 50px;
+}
+.footer .next .footermain .lianxi span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 50px;
+}
+.footer .next .footermain .lianxi:hover {
+  background-color: white;
+}
+.footer .next .footermain .china {
+  position: relative;
+  right: 0;
+  width: 100% !important;
+}
+.footer .next .footermain .china .chinese {
+  display: inline-block;
+  background: url(../images/icon@2x.png);
+  background-position: 95px 252px;
+  width: 52px;
+  height: 24px;
+}
+.footer .next .footermain .china .xianggang {
+  display: inline-block;
+  background: url(../images/icon.png);
+  background-position: -218px -154px;
+  width: 52px;
+  height: 24px;
+}
+.footer .next .footermain .china .btn .btn-default .dropdown-toggle {
+  height: 44px!important;
+  line-height: 44px;
+}
+.footer .next .footermain .icon1 {
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+}
+.footer .next .footermain .icon1 span {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.footer .next .footerbottom .footer-statement ul {
+  float: right;
+  bottom: 0;
+}
+.footer .next .footerbottom .footer-statement ul li {
+  display: inline-block;
+  line-height: 33px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.footer .next .footerbottom .footer-statement ul li a {
+  display: inline-block;
+}
+.footer .next .footerbottom .footer-statement ul li a .icon-gongshang {
+  display: inline-block;
+  background: url(../images/icon.png);
+  background-position: -234px -236px;
+  width: 16px;
+  height: 17px;
+}
+.footer .next .footerbottom .footer-statement ul li a .icon-hugongwangbei {
+  display: inline-block;
+  background: url(../images/icon.png);
+  background-position: -212px -236px;
+  width: 16px;
+  height: 18px;
+}
+.footer .next .footerbottom .footer-icp {
+  font-size: 14px;
+}
+.footer .next .footerbottom .footer-icp .iconfontit {
+  background: url(../images/icon.png);
+  background-position: 139px 28px;
+  width: 30px;
+  height: 28px;
+  display: inline-block;
+  margin-right: 20px;
+}
+@media screen and (min-width: 992px) {
+  .footer {
+    margin: 50px 0.75rem;
+  }
+  .btn.btn-default.ccc {
+    width: 87%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer {
+    margin: 50px 0;
+  }
+  .btn.btn-default.ccc {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footermain {
+    font-size: 16px!important;
+  }
+}
+.btn-group > .btn,
+.btn-group-vertical > .btn {
+  position: relative;
+  float: right;
+}
+.btn-default {
+  color: black;
+  background-color: #fff;
+  border-color: black;
+}
+.btn-default:hover {
+  color: #333;
+  background-color: white;
+  border-color: black;
+}
+.btn {
+  border-radius: 0!important;
+}
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  float: right;
+  right: 0;
+  left: 0;
+  margin-bottom: 2px;
+}

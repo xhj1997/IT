@@ -1,0 +1,183 @@
+@charset "utf-8";
+.content{
+  position: relative;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  article{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .box{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      .pic{
+        padding:0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        .item{
+          padding: 0;
+          overflow: hidden;
+          //yidong
+          img {
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+          }
+          //pc
+          a{
+            background-position:top center;
+            background-size: cover;
+            background-repeat: no-repeat;
+          }
+          &:first-of-type::before{
+            content: "";
+            display: block;
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            background-position: center center;
+            background: url("../images/bitsm.jpg");
+            background-size: contain;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+          }
+
+          &:nth-of-type(2)::before{
+            background: url("../images/blueitsm.jpg");
+            content: "";
+            display: block;
+            width: 75px;
+            height: 75px;
+            position: absolute;
+            background-position: center center;
+            background-size: contain;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+          }
+
+        }
+        :nth-of-type(n+3){
+          width: 0;
+          height: 0;
+          display: none;
+        }
+
+      }
+      .pictext{
+        z-index: 99;
+        position: relative;
+        padding:0;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        .contbox{
+          //pointer-events: none;
+          float: left;
+          padding: 0;
+          width: 50%;
+          height: 667px;
+          &:nth-of-type(3){
+            top:0;
+            background-color: rgba(0,0,0,0.3);
+            left: 0;
+            position: absolute;
+            //margin: auto auto;
+            //padding:28% 20%;
+            .cont{
+              color:white;
+              padding:28% 20%;
+
+              img{
+                width: 38px;
+                height: 38px;
+                margin-bottom:34px;
+                display: block;
+              }
+
+              .btn-white-sec{
+                width: 200px;
+                height: 50px;
+                color: white;
+                padding-top: 0;
+                text-align: center;
+                box-sizing: border-box;
+                border: 1px solid white;
+                span{
+                  display: block;
+                  height: 50px;
+                  line-height: 50px;
+
+                }
+                &:hover{
+                  background: white;
+                  color: black;
+                  //display: block;
+                }
+              }
+            }
+          }
+          &:last-of-type{
+            right: 0;
+            background: rgba(255,255,255,0.6);
+            position: absolute;
+            top:0;
+            .cont{
+              padding: 28% 0 0 20%;
+              color: black;
+              img{
+                width: 38px;
+                height: 38px;
+                margin-bottom: 34px;
+                display: block;
+              }
+              .btn-white-sec{
+                margin-top: 30px;
+                width: 200px;
+                height: 50px;
+                color: black;
+                padding-top: 0;
+                text-align: center;
+                box-sizing: border-box;
+                border:1px solid black;
+                span{
+                  display: block;
+                  height: 50px;
+                  line-height: 50px;
+
+                }
+
+
+                &:hover{
+                  background: black;
+                  color:white;
+                }
+              }
+            }
+          }
+          &:nth-of-type(-n+2){
+            width: 0;
+            height: 0;
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+.things2{
+  .container{
+    .goods{
+      overflow: hidden;
+      .biaoti{
+        width: 35rem;
+        margin: 0 auto;
+        li{
+          margin: 0 auto;
+          font-size: 1.5rem;
+        }
+      }
+      .touchgoods{
+        width: 97.5rem;
+        .neirong{
+          li{
+            margin-bottom: 1rem;
+          }
+        }
+        a{
+          width:100%;
+          .thumbnail{
+            cursor: pointer;
+            transition: box-shadow 0.5s;
+            -webkit-transition: box-shadow 0.5s;
+          }
+          .thumbnail:hover{
+            box-shadow: 5px 10px 10px gray;
+            border: 1px solid black;
+          }
+        }
+      }
+    }
+    .xuangou{
+      border:1px solid black;
+      width:20rem;
+      height:4rem;
+      margin: 0 auto;
+      line-height: 4rem;
+    }
+    .xuangou:hover{
+      background-color: black;
+      -moz-transition: all 1s ease 0s;
+      -webkit-transition:all 1s ease 0s;
+      transition:all 1s ease 0s;
+      -o-transition:all 1s ease 0s;
+      a{
+        color: white;
+      }
+    }
+  }
+}
+
+
+
+
+
+.things2 .goods .nav-tabs {
+  padding-top: 15px;
+  border-bottom: 1px solid #ddd;
+}
+.things2 .goods .nav-tabs > li > a {
+  border-radius: 4px 4px 0 0;
+}
+.things2 .goods .nav-tabs > li.active > a,
+.things2 .goods .nav-tabs > li.active > a:hover,
+.things2 .goods .nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #f5f5f5;
+  border:none;
+}
+.things2 .goods .nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.things2 .goods .nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: 0;
+}
+@media (min-width: 768px) {
+  .things2 .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .things2 .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.things2 .nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+.things2 .nav-tabs.nav-justified > .active > a,
+.things2 .nav-tabs.nav-justified > .active > a:hover,
+.things2 .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #ddd;
+}
+@media (min-width: 768px) {
+  .things2 .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 4px 4px 0 0;
+  }
+  .things2 .nav-tabs.nav-justified > .active > a,
+  .things2 .nav-tabs.nav-justified > .active > a:hover,
+  .things2 .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #fff;
+  }
+}

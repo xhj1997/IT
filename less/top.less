@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@baseWidth:100%;
+@baseColor:black;
+@font-color:white;
+
+.nz_topBar{
+  background-color: @baseColor;
+  position: relative;
+  height:3rem ;
+  width: @baseWidth;
+}
+.nz_topBar .row{
+  margin-top: 0.5rem;
+  width:@baseWidth;
+  position: relative;
+}
+.nz_topBar .col-md-2:first-child{
+  position: absolute;
+  text-align: left;
+}
+.nz_topBar .col-md-2:first-child .globe{
+  font-size: 2rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.nz_topBar .col-md-2:nth-child(2){
+  position: absolute;
+  margin: 0 auto;
+  left: 40%;
+  text-align: center;
+}
+.nz_topBar .col-md-2:nth-child(2) .globe{
+  font-size: 2rem;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.nz_topBar .col-md-2:last-child{
+  position: absolute;
+  right: 0rem;
+  text-align: right;
+}
+.col-md-2 span{
+  color: @font-color;
+}
